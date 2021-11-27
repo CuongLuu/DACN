@@ -7,6 +7,9 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Demo.Models;
+using PagedList;
+using PagedList.Mvc;
+
 
 namespace Demo.Controllers
 {
@@ -15,10 +18,14 @@ namespace Demo.Controllers
         private DBcontext db = new DBcontext();
 
         // GET: Donhang
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
-            var donhangs = db.Donhangs.Include(d => d.Cuahang).Include(d => d.HoaDon).Include(d => d.NguoiDung);
-            return View(donhangs.ToList());
+            var listDH = db.Donhangs.ToList();
+            if (page == null)
+                page = 1;
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+            return View(listDH.ToPagedList(pageNum, pageSize));
         }
 
         // GET: Donhang/Details/5
@@ -135,6 +142,15 @@ namespace Demo.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+        public ActionResult Dathang(int? page)
+        {
+            var listDatH = db.CTHDs.ToList();
+            if (page == null)
+                page = 1;
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+            return View(listDatH.ToPagedList(pageNum, pageSize));
         }
     }
 }

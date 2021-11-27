@@ -1,70 +1,165 @@
-﻿@model IEnumerable<Demo.Models.Cuahang>
+﻿@using Demo.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<Cuahang>
+@{ ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml"; }
 
-@{
-    ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
-}
+<div class="header bg-primary pb-6">
+    <div class="container-fluid">
+        <div class="header-body">
+            <div class="row align-items-center py-4">
+                <div class="col-lg-6 col-7">
+                    <h6 class="h2 text-white d-inline-block mb-0">Danh sách cửa hàng</h6>
 
+                </div>
+                <div class="col-lg-6 col-5 text-right">
+                    <a href="#" class="btn btn-sm btn-neutral"><i class="fas fa-trash"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt--6">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <!-- Card header -->
+                <div class="card-header border-0">
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Admin.ten)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.tenCH)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.diachi)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.sdt)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.idLike)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.soluongSP)
-        </th>
-        <th></th>
-    </tr>
+                    <a href="/CuaHang/Create" class="btn btn-round btn-primary"><i class="fas fa-plus-circle"></i></a>
+                </div>
+                <!-- Light table -->
+                <div class="table-responsive">
+                    <table class="table align-items-center table-flush">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col" class="sort" data-sort="budget">Tên cửa hàng</th>
+                                <th scope="col" class="sort" data-sort="budget">Địa chỉ </th>
+                                <th scope="col" class="sort" data-sort="budget">Email </th>
+                                <th scope="col" class="sort" data-sort="budget">SĐT </th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="list">
+                            @foreach (var i in Model)
+                            {
+                <tr>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.maCH</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.tenCH</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.diachi</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.email</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.sdt</span>
+                        </div>
+                    </td>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Admin.ten)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.tenCH)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.diachi)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.sdt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.idLike)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.soluongSP)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.maCH }) |
-                @Html.ActionLink("Details", "Details", new { id = item.maCH }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.maCH })
-            </td>
-        </tr>
+                    <td>
+                        @*status*@
+
+                    </td>
+                    <td class="text-right">
+                        <a href="@Url.Action("Details","CuaHang",new { id= @i.idAdmin })" class="btn btn-sm btn-neutral"><i class="fas fa-eye"></i></a>
+                        <a href="@Url.Action("Edit","CuaHang",new { id= @i.idAdmin })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
+                        <a href="@Url.Action("Delete","CuaHang",new { id= @i.idAdmin })" class="btn btn-sm btn-neutral"><i class="fas fa-minus-circle"></i></a>
+
+                    </td>
+                </tr>}
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Card footer -->
+                <div class="card-footer py-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Card footer -->
+<div class="card-footer py-4">
+    <nav aria-label="...">
+        <ul class="pagination justify-content-end mb-0">
+            @*<li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">
+                        <i class="fas fa-angle-left"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">
+                        <i class="fas fa-angle-right"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>*@
+
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber ) of @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("List", new { page, currentFilter = ViewBag.CurrentFilter }))
+        </ul>
+        @*<nav aria-label="...">
+                <div class="pagination-container">
+                    <ul class="pagination">
+                        <li class="active">
+                            <a>1</a>
+                        </li>
+                        <li>
+                            <a href="/News/List?page=2">2</a>
+                        </li>
+                        <li class="PagedList-skipToNext">
+                            <a href="/News/List?page=2" rel="next">»</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>*@
+
+    </nav>
+</div>
+<style>
+    .pagination {
+        display: inline-block;
     }
 
-</table>
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+        }
+
+            .pagination a.active {
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid #4CAF50;
+            }
+
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+            }
+</style>
+

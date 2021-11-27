@@ -20,18 +20,18 @@ namespace Demo.Controllers
         // GET: Product
         DBcontext context = new DBcontext();
         // GET: News
-        
-        public ActionResult List(string currentFilter, string SearchString , int? page)
+
+        public ActionResult List(string currentFilter, string SearchString, int? page)
         {
             var listSP = new List<SanPham>();
-            if(SearchString !=null)
+            if (SearchString != null)
             {
                 page = 1;
-            } 
+            }
             else
             {
                 SearchString = currentFilter;
-            } 
+            }
             if (!string.IsNullOrEmpty(SearchString))
             {
                 listSP = context.SanPhams.Where(n => n.tenSP.Contains(SearchString)).ToList();
@@ -180,13 +180,18 @@ namespace Demo.Controllers
 
             obj.ListSP = context.SanPhams.ToList();
             obj.ListCH = context.Cuahangs.ToList();
+            obj.ListSP = obj.ListSP.OrderByDescending(n => n.maSP).ToList();
             return View(obj);
         }
 
-        public ActionResult ProductCategory(int id)
+        public ActionResult ProductCategory(int id, int? page)
         {
             var listProduct = context.SanPhams.Where(n => n.maCH == id).ToList();
-            return View(listProduct);
+            if (page == null)
+                page = 1;
+            int pageSize = 9;
+            int pageNum = (page ?? 1);
+            return View(listProduct.ToPagedList(pageNum, pageSize));
         }
         public ActionResult CreateUser()
         {
@@ -247,10 +252,14 @@ namespace Demo.Controllers
             }
             return View(sanPham);
         }
-        public ActionResult ListDuyet()
+        public ActionResult ListDuyet(int? page)
         {
             var listEmp = context.SanPhams.Where(p => p.status == 0).ToList();
-            return View(listEmp);
+            if (page == null)
+                page = 1;
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+            return View(listEmp.ToPagedList(pageNum, pageSize));
         }
         public ActionResult EditDuyet(int? id)
         {

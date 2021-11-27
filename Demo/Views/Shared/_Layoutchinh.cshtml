@@ -34,7 +34,7 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">CHN <span>Fast</span>Food</a>
+            <a href="/Home/index" class="navbar-brand">CHN <span>Fast</span>Food</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,56 +53,55 @@
                         }
                     </a>
                     <a href="@Url.Action("Index", "Home")" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">
+                    <a href="/Cart/ShowtoCart" class="nav-item nav-link">
                         <i class="fas fa-shopping-cart"></i>
                         @*@Html.Action("BagCart","Cart")*@
                     </a>
-                    
+
                     <a href="about.html" class="nav-item nav-link">About</a>
 
                     <a href="/Product/allProduct" class="nav-item nav-link">Menu</a>
                     <a href="booking.html" class="nav-item nav-link">Đặt món</a>
 
-                    
-                    </div>
-                    @if (Session["Account"] != null)
-                    {
-                        NguoiDung u = (NguoiDung)Session["Account"];
-
-                        <div class="nav-item dropdown ">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="true">@u.tenND</a>
-                            <div class="dropdown-menu">
-                                <a href="@Url.Action("ProfileUser", "Home")" class="dropdown-item">Thông tin của tôi</a>
-                                <a href="@Url.Action("EditProfileUser", "Home", new { id=u.maND })" class="dropdown-item">Cập nhật thông tin</a>
-                                <a href="@Url.Action("ChangePasswordUser", "Account", new { id=u.maND })" class="dropdown-item">Đổi mật khẩu</a>
-                                <a href="@Url.Action("Logout", "Account")" class="dropdown-item">Đăng xuất</a>
-                            </div>
-                        </div>
-                    }
-                    else
-                    {
-                        <a href="@Url.Action("Login", "Account")" class="nav-item nav-link">Đăng nhập</a>
-                    }
 
                 </div>
+                @if (Session["Account"] != null)
+                {
+                    NguoiDung u = (NguoiDung)Session["Account"];
+
+                    <div class="nav-item dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="true">@u.tenND</a>
+                        <div class="dropdown-menu">
+                            <a href="@Url.Action("ProfileUser", "Home")" class="dropdown-item">Thông tin của tôi</a>
+                            <a href="@Url.Action("EditProfileUser", "Home", new { id=u.maND })" class="dropdown-item">Cập nhật thông tin</a>
+                            <a href="@Url.Action("ChangePasswordUser", "Account", new { id=u.maND })" class="dropdown-item">Đổi mật khẩu</a>
+                            <a href="@Url.Action("Logout", "Account")" class="dropdown-item">Đăng xuất</a>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <a href="@Url.Action("Login", "Account")" class="nav-item nav-link">Đăng nhập</a>
+                }
+
             </div>
         </div>
     </div>
+    </div>
     <!-- Carousel Start -->
-    
     <!-- Carousel End -->
     @RenderBody()
     <!-- Blog End -->
     <!-- Footer Start -->
-    <div class="footer">
-        
-        <div class="copyright">
-            <div class="container">
-                <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+    @*<div class="footer">
+
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
             </div>
-        </div>
-    </div>
+        </div>*@
     <!-- Footer End -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>

@@ -85,7 +85,7 @@
                                     {
                                         <input type="text" class="form-control" disabled value="Hiển Thị" />
                                     }
-                                    else if (Model.status == null)
+                                    else if (Model.status == 0)
                                     {
                                         <input type="text" class="form-control" disabled value="Đợi duyệt" />
                                     }
@@ -96,18 +96,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="tittle">Ngày tạo</label>
-                                    <input type="text" class="form-control" disabled value=" @Html.DisplayFor(model => model.ngaytao)" />
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="tittle">Ngày cập nhật</label>
-                                    <input type="text" class="form-control" disabled value="@Html.DisplayFor(model => model.ngaycapnhat)" />
-                                </div>
-                            </div>
+
                             <div class="col-lg-12">
                                 <div class="form-group">
                                     <label class="form-control-label" for="input-email">Ảnh sản phẩm</label>

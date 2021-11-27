@@ -76,9 +76,9 @@
 
                     </td>
                     <td class="text-right">
-                        <a href="@Url.Action("Details","CuaHang",new { id= @i.idAdmin })" class="btn btn-sm btn-neutral"><i class="fas fa-eye"></i></a>
-                        <a href="@Url.Action("Edit","CuaHang",new { id= @i.idAdmin })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
-                        <a href="@Url.Action("Delete","CuaHang",new { id= @i.idAdmin })" class="btn btn-sm btn-neutral"><i class="fas fa-minus-circle"></i></a>
+                        <a href="@Url.Action("Details","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-eye"></i></a>
+                        <a href="@Url.Action("Edit","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
+                        <a href="@Url.Action("Delete","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-minus-circle"></i></a>
 
                     </td>
                 </tr>
@@ -118,7 +118,8 @@
                     </a>
                 </li>*@
 
-            @Html.PagedListPager(Model, page => Url.Action("List", new { page = page }))
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber ) of @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("List", new { page, currentFilter = ViewBag.CurrentFilter }))
         </ul>
         @*<nav aria-label="...">
                 <div class="pagination-container">
@@ -138,9 +139,28 @@
 
     </nav>
 </div>
-            </div>
-        </div>
-    </div>
+<style>
+    .pagination {
+        display: inline-block;
+    }
 
-</div>
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+        }
+
+            .pagination a.active {
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid #4CAF50;
+            }
+
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+            }
+</style>
 

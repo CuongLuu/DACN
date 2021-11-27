@@ -29,10 +29,14 @@ namespace Demo.Controllers
             }
             return listCH;
         }
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
-            var cuahangs = db.Cuahangs.Include(c => c.Admin);
-            return View(cuahangs.ToList());
+            var listCuahang = db.Cuahangs.ToList();
+            if (page == null)
+                page = 1;
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+            return View(listCuahang.ToPagedList(pageNum, pageSize));
         }
         public ActionResult List(int? page)
         {

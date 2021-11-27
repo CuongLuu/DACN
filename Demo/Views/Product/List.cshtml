@@ -2,7 +2,8 @@
 @using PagedList.Mvc;
 @model PagedList.PagedList<SanPham>
 @{ ViewBag.Title = "List";
-                Layout = "~/Views/Shared/_LayoutAdmin.cshtml";}
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
 
 <div class="header bg-primary pb-6">
     <div class="container-fluid">
@@ -29,11 +30,11 @@
 
                     <a href="/Product/Create" class="btn btn-round btn-primary"><i class="fas fa-plus-circle"></i></a>
                 </div>
-                @using (Html.BeginForm("List", "Product", FormMethod.Get)) 
-                { 
-          
+                @using (Html.BeginForm("List", "Product", FormMethod.Get))
+                {
+
                 }
-                    
+
 
                 <!-- Light table -->
                 <div class="table-responsive">
@@ -52,62 +53,63 @@
                         <tbody class="list">
                             @foreach (var i in Model)
                             {
-                <tr>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.maSP</span>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.tenSP</span>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.gia</span> VNĐ
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <img style="height:75px;width:75px" alt="Image news" src="~/Content/Template/img/@i.hinhanh">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.Cuahang.tenCH</span>
-                        </div>
-                    </td>
-                    <td>
-                        @*status*@
-                        <span class="badge badge-dot mr-4">
-                            @if (i.status == 3)
-                            {
-            <i class="bg-warning"></i>
-                                <span class="status">Xóa</span> }
-                            else if (i.status == 1)
-                            {
-            <i class="bg-success"></i>
-                                <span class="status">Hiển thị</span> }
-                            else if (i.status == 2)
-                            {
+                                <tr>
+                                    <td>
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@i.maSP</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@i.tenSP</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@i.gia</span> VNĐ
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="media-body">
+                                            <img style="height:75px;width:75px" alt="Image news" src="~/Content/Template/img/@i.hinhanh">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@i.Cuahang.tenCH</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        @*status*@
+                                        <span class="badge badge-dot mr-4">
+                                            @if (i.status == 3)
+                                            {
+                                                <i class="bg-warning"></i>
+                                                <span class="status">Xóa</span> }
+                                            else if (i.status == 1)
+                                            {
+                                                <i class="bg-success"></i>
+                                                <span class="status">Hiển thị</span> }
+                                            else if (i.status == 2)
+                                            {
 
 
-            <i class="bg-info"></i><span class="status">Ẩn</span> }
-        else
-        { @*status = 0*@
-                                <i class="bg-info"></i>
-                                                    <span class="status">Đợi duyệt</span>}
+                                                <i class="bg-info"></i><span class="status">Ẩn</span> }
+                                            else
+                                            { @*status = 0*@
+                                            <i class="bg-info"></i>
+                                            <span class="status">Đợi duyệt</span>}
 
-                        </span>
-                    </td>
-                    <td class="text-right">
-                        <a href="@Url.Action("Details","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-eye"></i></a>
-                        <a href="@Url.Action("Edit","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
-                        <a href="@Url.Action("Delete","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-minus-circle"></i></a>
+                                        </span>
+                                    </td>
+                                    <td class="text-right">
+                                        <a href="@Url.Action("Details","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-eye"></i></a>
+                                        <a href="@Url.Action("Edit","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
+                                        <a href="@Url.Action("Delete","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-minus-circle"></i></a>
 
-                    </td>
-                </tr>}
+                                    </td>
+                                </tr>
+}
                         </tbody>
                     </table>
                 </div>
@@ -142,8 +144,8 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </li>*@
-
-            @Html.PagedListPager(Model, page => Url.Action("List", new { page,currentFilter = ViewBag.CurrentFilter }))
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber ) of @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("List", new { page, currentFilter = ViewBag.CurrentFilter }))
         </ul>
         @*<nav aria-label="...">
                 <div class="pagination-container">
@@ -163,11 +165,29 @@
 
     </nav>
 </div>
-            </div>
-        </div>
-    </div>
+<style>
+    .pagination {
+        display: inline-block;
+    }
 
-</div>
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+        }
 
+            .pagination a.active {
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid #4CAF50;
+            }
+
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+            }
+</style>
 
 

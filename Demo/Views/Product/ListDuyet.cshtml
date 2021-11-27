@@ -1,10 +1,8 @@
-﻿@model List<Demo.Models.SanPham>
-@using Demo.Models
-
-@{
-    ViewBag.Title = "ListDuyet";
-    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
-}
+﻿@using Demo.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<SanPham>
+@{ ViewBag.Title = "ListDuyet";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml"; }
 
 <div class="header bg-primary pb-6">
     <div class="container-fluid">
@@ -49,58 +47,54 @@
                         <tbody class="list">
                             @foreach (var i in Model.Where(n => n.status == 0))
                             {
-                                <tr>
-                                    <td>
-                                        <div class="media-body">
-                                            <span class="name mb-0 text-sm">@i.tenSP</span>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="media-body">
-                                            <span class="name mb-0 text-sm">@i.gia</span>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="media-body">
-                                            <img style="height:75px;width:75px" alt="Image news" src="~/Content/Template/img/@i.hinhanh">
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="media-body">
-                                            <span class="name mb-0 text-sm">@i.Cuahang.tenCH</span>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        @if (i.status == 2)
-                                        {
-                                            <i class="bg-warning"></i>
-                                            <span class="status">Xóa</span>
-                                        }
-                                        else if (i.status == 1)
-                                        {
-                                            <i class="bg-success"></i>
-                                            <span class="status">Hiển thị</span>
-                                        }
+                <tr>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.tenSP</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.gia</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="media-body">
+                            <img style="height:75px;width:75px" alt="Image news" src="~/Content/Template/img/@i.hinhanh">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="media-body">
+                            <span class="name mb-0 text-sm">@i.Cuahang.tenCH</span>
+                        </div>
+                    </td>
+                    <td>
+                        @if (i.status == 2)
+                        {
+        <i class="bg-warning"></i>
+                            <span class="status">Xóa</span> }
+                        else if (i.status == 1)
+                        {
+        <i class="bg-success"></i>
+                            <span class="status">Hiển thị</span> }
 
-                                        else if (i.status == 0)
-                                        {
-                                            <i class="bg-info"></i>
-                                            <span class="status">Đợi duyệt</span>
-                                        }
+                        else if (i.status == 0)
+                        {
+        <i class="bg-info"></i>
+                            <span class="status">Đợi duyệt</span>}
 
-                                    </td>
+                    </td>
 
 
 
 
-                                    <td class="text-right">
+                    <td class="text-right">
 
-                                        <a href="@Url.Action("EditDuyet","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
+                        <a href="@Url.Action("EditDuyet","Product",new { id= @i.maSP })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
 
 
-                                    </td>
-                                </tr>
-                            }
+                    </td>
+                </tr>}
                         </tbody>
                     </table>
                 </div>
@@ -112,3 +106,70 @@
         </div>
     </div>
 </div>
+<div class="card-footer py-4">
+    <nav aria-label="...">
+        <ul class="pagination justify-content-end mb-0">
+            @*<li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">
+                        <i class="fas fa-angle-left"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">
+                        <i class="fas fa-angle-right"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>*@
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber ) of @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("ListDuyet", new { page, currentFilter = ViewBag.CurrentFilter }))
+        </ul>
+        @*<nav aria-label="...">
+                <div class="pagination-container">
+                    <ul class="pagination">
+                        <li class="active">
+                            <a>1</a>
+                        </li>
+                        <li>
+                            <a href="/News/List?page=2">2</a>
+                        </li>
+                        <li class="PagedList-skipToNext">
+                            <a href="/News/List?page=2" rel="next">»</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>*@
+
+    </nav>
+</div>
+<style>
+    .pagination {
+        display: inline-block;
+    }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+        }
+
+            .pagination a.active {
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid #4CAF50;
+            }
+
+            .pagination a:hover:not(.active) {
+                background-color: #ddd;
+            }
+</style>     
