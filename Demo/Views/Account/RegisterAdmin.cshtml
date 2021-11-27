@@ -1,0 +1,104 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/Content/LogginAdmin/css/style.css">
+
+</head>
+<body class="img js-fullheight" style="background-image: url(/Content/LogginAdmin/images/bg.jpg);">
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="login-wrap p-0">
+                        <h3 class="mb-4 text-center">Đăng ký thành viên</h3>
+                        <p class="text-lead text-white">
+                            @if (ViewBag.Status != null)
+                            {
+                                @ViewBag.Status
+                            }
+                        </p>
+                        <form action="#" class="signin-form" method="post">
+                            @using (Html.BeginForm("RegisterAdmin", "Account", FormMethod.Post, new { @class = "" }))
+                            {
+                                @Html.AntiForgeryToken()
+
+                                <div class="form-group first">
+                                    <label for="username">Họ và tên</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Họ và tên" required="">
+                                </div>
+                                <div class="form-group first">
+                                    <label for="useremail">Email của bạn</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email của bạn" required="">
+                                  
+                                </div>
+                                <div class="form-group first">
+                                    <label for="useraddress">Địa chỉ của bạn</label>
+                                    <input type="text" name="address" id="address" class="form-control" placeholder="Địa chỉ" required="">
+                                   
+                                </div>
+                                <div class="form-group first">
+                                    <label for="userphone">SĐT của bạn</label>
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="SĐT của bạn" required="">
+                                   
+                                </div>
+                                <div class="form-group first">
+                                    <label for="usercmnd">CMND của bạn</label>
+                                    <input type="text" name="cmnd" id="cmnd" class="form-control" placeholder="Số CMND" required="">
+                                   
+                                </div>
+                                <div class="form-group first">
+                                    <label for="userday">Ngày sinh của bạn</label>
+                                    <input type="date" name="birthday" id="birthday" class="form-control" placeholder="" required="">
+                                    
+                                </div>
+
+                                <div class="form-group last mb-3">
+                                    <label for="password">Mật khẩu</label>
+                                    <input type="password" name="password" class="form-control" placeholder="Mật khẩu" id="password" required="">
+                                    
+                                </div>
+                                <div class="form-group last mb-3">
+                                    <label for="password">Nhập lại mật khẩu</label>
+                                    <input type="password" name="repassword" class="form-control" id="repassword" placeholder="Nhập lại mật khẩu" required="">
+                                    
+                                </div>
+                                <div class="form-grid" style="text-align:center">
+                                    <button type="submit" class="btn btn-primary btn-style">Đăng ký</button>
+                                    
+                                </div>
+                            }
+                            <div class="form-group d-md-flex">
+                                <div class="w-50">
+
+                                </div>
+                                <div class="w-50 text-md-right">
+                                    <a href="@Url.Action("LoginAdmin","Account")" style="color: #fff">Đã có tài khoản </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/Content/LogginAdmin/js/jquery.min.js"></script>
+    <script src="~/Content/LogginAdmin/js/popper.js"></script>
+    <script src="~/Content/LogginAdmin/js/bootstrap.min.js"></script>
+    <script src="~/Content/LogginAdmin/js/main.js"></script>
+
+</body>
+</html>
+

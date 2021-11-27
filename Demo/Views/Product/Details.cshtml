@@ -1,0 +1,131 @@
+﻿@model Demo.Models.SanPham
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="header bg-primary pb-6">
+    <div class="container-fluid">
+        <div class="header-body">
+            <div class="row align-items-center py-4">
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt--6">
+    <div class="row">
+        <div class="col-xl-8 order-xl-1">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <h3 class="mb-0">Thông tin sản phảm @Model.tenSP</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="pl-lg-4">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên sản phẩm</label>
+                                    <input type="text" class="form-control" disabled value="@Model.tenSP" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Giá tiền</label>
+                                    <input type="text" class="form-control" disabled value="@Model.gia" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên admin</label>
+                                    <input type="text" class="form-control" disabled value="@Html.DisplayFor(model => model.Admin.ten)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên loại sản phẩm</label>
+                                    <input type="text" class="form-control" disabled value="@Html.DisplayFor(model => model.LoaiSP.tenLoaiSP)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên size</label>
+                                    <input type="text" class="form-control" disabled value="@Html.DisplayFor(model => model.Size.tenSize)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên cửa hàng</label>
+                                    <input type="text" class="form-control" disabled value="@Html.DisplayFor(model => model.Cuahang.tenCH)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên topping</label>
+                                    <input type="text" class="form-control" disabled value="@Html.DisplayFor(model => model.Topping.tenTP)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Mô tả</label>
+                                    <input type="text" class="form-control" disabled value=" @Html.DisplayFor(model => model.mota)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="input-email">Trạng thái</label>
+                                    @if (Model.status == 1)
+                                    {
+                                        <input type="text" class="form-control" disabled value="Hiển Thị" />
+                                    }
+                                    else if (Model.status == null)
+                                    {
+                                        <input type="text" class="form-control" disabled value="Đợi duyệt" />
+                                    }
+                                    else if (Model.status == 2)
+                                    {
+                                        <input type="text" class="form-control" disabled value="Ẩn" />
+                                    }
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Ngày tạo</label>
+                                    <input type="text" class="form-control" disabled value=" @Html.DisplayFor(model => model.ngaytao)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Ngày cập nhật</label>
+                                    <input type="text" class="form-control" disabled value="@Html.DisplayFor(model => model.ngaycapnhat)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="input-email">Ảnh sản phẩm</label>
+                                    <br />
+                                    <img src="~/Content/Template/img/@Html.DisplayFor(model => model.hinhanh)" style="height:200px;width:200px;margin:10px" id="previewImage" />
+
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <a class="btn btn-primary my-4" href="@Url.Action("List","Product")">OK</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>

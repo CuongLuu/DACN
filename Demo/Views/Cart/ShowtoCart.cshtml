@@ -1,0 +1,92 @@
+﻿@model Demo.Models.Cart
+@{
+    ViewBag.Title = "ShowtoCart";
+    Layout = "~/Views/Shared/_Layoutchinh.cshtml";
+}
+@if (Model != null)
+{ 
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Chi tiết giỏ hàng</h2>
+            </div>
+            <div class="col-12">
+                <a href="">Trang chủ</a>
+                <a href="">sản phẩm</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+        <thead>
+            <tr>
+                <th style="width:40%">Sản phẩm</th>
+                <th style="width:8%">Giá</th>
+                <th style="width:12%">Số lượng</th>
+                <th style="width:8%">Size</th>
+                <th style="width:22%" class="text-center">Topping</th>
+                <th style="width:10%"></th>
+                <th style="width:10%">Thành tiền</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                float tong = Convert.ToInt32(item.Shopping_sanpham.gia.Value * item.Shopping_soLuong);
+
+
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-4 hidden-xs"><img src="~/Content/Template/img/@item.Shopping_sanpham.hinhanh" alt="..." class="img-responsive" /></div>
+                            <div class="col-sm-6">
+                                <h4 style="margin:0 0 0;" class="nomargin">@Html.DisplayFor(model => item.Shopping_sanpham.tenSP)</h4>
+                                <h6 class="nomargin"><span>Cửa hàng: </span><a href="#">@Html.DisplayFor(model => item.Shopping_sanpham.Cuahang.tenCH)</a></h6>
+                                <p>@Html.DisplayFor(model => item.Shopping_sanpham.mota)</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">@Html.DisplayFor(model => item.Shopping_sanpham.gia)<span>đ</span></td>
+                    <td data-th="Quantity">
+                        @using (Html.BeginForm("UpdateSoluongCart", "Cart"))
+                        {
+                        <input type="hidden" class="form-control text-center" value="@item.Shopping_sanpham.maSP" name="maSP"/>
+                        <input type="number" class="form-control text-center" value="@item.Shopping_soLuong" name="SoLuong"/>
+                        <input type="submit" value="Cập nhật" />
+                        }
+
+                    </td>
+                    <td data-th="Size">
+                        <section>
+                            <option>@Html.DisplayFor(model => item.Shopping_sanpham.Size.tenSize)</option>
+                        </section>
+                    
+                    </td>
+                    <td data-th="topping" class="text-center">@Html.DisplayFor(model => item.Shopping_sanpham.Topping.tenTP)</td>
+                    <td class="actions" data-th="">
+                        
+                        <a href="/Cart/RemoveCart/@item.Shopping_sanpham.maSP">
+                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                        </a>
+                    </td>
+                    <td>@tong<span>đ</span></td>
+                </tr>
+
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><a href="/Product/allProduct" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua</a></td>
+                <td colspan="2" class="hidden-xs"></td>
+                <td class="hidden-xs text-center"><strong>Tổng:@Model.Tongtien()<span>đ</span></strong></td>
+                <td><a href="/Payment/Payment" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a></td>
+            </tr>
+        </tfoot>
+
+    </table>
+</div>
+}
+

@@ -1,0 +1,84 @@
+﻿@model Demo.Models.NguoiDung
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="header bg-primary pb-6">
+    <div class="container-fluid">
+        <div class="header-body">
+            <div class="row align-items-center py-4">
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt--6">
+    <div class="row">
+        <div class="col-xl-8 order-xl-1">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <h3 class="mb-0">Thông tin người dùng @Model.tenND</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="pl-lg-4">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên cửa hàng</label>
+                                    <input type="text" class="form-control" disabled value="@Model.tenND" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Địa chỉ</label>
+                                    <input type="text" class="form-control" disabled value="@Model.diachi" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Email</label>
+                                    <input type="text" class="form-control" disabled value=" @Html.DisplayFor(model => model.email)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="tittle">Tên loại sản phẩm</label>
+                                    <input type="text" class="form-control" disabled value=" @Html.DisplayFor(model => model.sdt)" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="input-email">Giới tính</label>
+                                    @if (Model.gioitinh == 0)
+                                    {
+                                        <input type="text" class="form-control" disabled value="Nam" />
+                                    }
+                                  
+                                    else if (Model.gioitinh == 1)
+                                    {
+                                        <input type="text" class="form-control" disabled value="Nữ" />
+                                    }
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <a class="btn btn-primary my-4" href="@Url.Action("Index","NguoiDung")">OK</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+

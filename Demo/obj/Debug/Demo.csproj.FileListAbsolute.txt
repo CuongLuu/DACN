@@ -1,0 +1,846 @@
+C:\Users\admin\source\repos\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Demo\Demo\bin\Demo.dll.config
+C:\Users\admin\source\repos\Demo\Demo\bin\Demo.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Demo.pdb
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\csc.exe
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\csc.exe.config
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\csc.rsp
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\csi.exe
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\csi.exe.config
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\csi.rsp
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.AppContext.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Console.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Net.Http.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\vbc.exe
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\vbc.exe.config
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\vbc.rsp
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\source\repos\Demo\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\source\repos\Demo\Demo\bin\Antlr3.Runtime.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\EntityFramework.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Newtonsoft.Json.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\Owin.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Helpers.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Mvc.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Optimization.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Razor.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.WebPages.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\WebGrease.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Helpers.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Mvc.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Optimization.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.Razor.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.WebPages.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Newtonsoft.Json.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Antlr3.Runtime.pdb
+C:\Users\admin\source\repos\Demo\Demo\bin\EntityFramework.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\source\repos\Demo\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\admin\source\repos\Demo\Demo\obj\Debug\Demo.dll
+C:\Users\admin\source\repos\Demo\Demo\obj\Debug\Demo.pdb
+C:\Users\admin\source\repos\Demo\Demo\bin\BCrypt.Net-Next.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Buffers.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Memory.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Numerics.Vectors.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\source\repos\Demo\Demo\bin\BCrypt.Net-Next.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Buffers.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Memory.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Numerics.Vectors.xml
+C:\Users\admin\source\repos\Demo\Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Demo.dll.config
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Demo.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Demo.pdb
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\csc.exe
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\csc.exe.config
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\csc.rsp
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\csi.exe
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\csi.exe.config
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\csi.rsp
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.AppContext.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Collections.Immutable.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Console.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Globalization.Calendars.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Net.Http.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Net.Sockets.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Reflection.Metadata.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.ValueTuple.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\vbc.exe
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\vbc.exe.config
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\vbc.rsp
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe.config
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Antlr3.Runtime.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\EntityFramework.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Web.Infrastructure.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Newtonsoft.Json.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Owin.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Buffers.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Memory.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Helpers.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Mvc.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Optimization.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Razor.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.WebPages.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\WebGrease.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Buffers.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Memory.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Helpers.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Mvc.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Optimization.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.Razor.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.WebPages.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Newtonsoft.Json.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Antlr3.Runtime.pdb
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\EntityFramework.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CopyComplete
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\obj\Debug\Demo.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\obj\Debug\Demo.pdb
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.dll
+F:\Dowload\Github\New folder\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Demo.dll.config
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Demo.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Demo.pdb
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Owin.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Buffers.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Memory.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\WebGrease.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Buffers.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Memory.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\obj\Debug\Demo.dll
+C:\Users\Admin\Desktop\New folder (2)\Doanchuyennganh\Demo\obj\Debug\Demo.pdb
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Demo.dll.config
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Demo.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Demo.pdb
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\csc.exe
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\csc.exe.config
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\csc.rsp
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\csi.exe
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\csi.exe.config
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\csi.rsp
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.AppContext.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Collections.Immutable.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Console.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Globalization.Calendars.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Net.Http.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Net.Sockets.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Reflection.Metadata.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.ValueTuple.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\vbc.exe
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\vbc.exe.config
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\vbc.rsp
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe.config
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Antlr3.Runtime.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\EntityFramework.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Web.Infrastructure.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Newtonsoft.Json.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Owin.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Buffers.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Memory.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Helpers.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Mvc.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Optimization.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Razor.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.WebPages.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\WebGrease.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\EntityFramework.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Buffers.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Memory.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Helpers.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Mvc.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Optimization.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.Razor.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.WebPages.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Newtonsoft.Json.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Antlr3.Runtime.pdb
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Dowload\git clone\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+F:\Dowload\git clone\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+F:\Dowload\git clone\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CopyComplete
+F:\Dowload\git clone\Doanchuyennganh\Demo\obj\Debug\Demo.dll
+F:\Dowload\git clone\Doanchuyennganh\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Demo.dll.config
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Demo.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Demo.pdb
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Owin.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Buffers.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Memory.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\WebGrease.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Buffers.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Memory.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\obj\Debug\Demo.dll
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Desktop\DA\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Demo.dll.config
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Demo.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Demo.pdb
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\csc.exe
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\csc.exe.config
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\csc.rsp
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\csi.exe
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\csi.exe.config
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\csi.rsp
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.AppContext.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Console.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Net.Http.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.ValueTuple.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\vbc.exe
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\vbc.exe.config
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\vbc.rsp
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Antlr3.Runtime.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\EntityFramework.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Newtonsoft.Json.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Owin.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\PagedList.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\PagedList.Mvc.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Buffers.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Memory.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Helpers.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Mvc.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Optimization.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Razor.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.WebPages.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\WebGrease.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\EntityFramework.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\PagedList.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\PagedList.Mvc.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Buffers.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Memory.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Helpers.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Mvc.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Optimization.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.Razor.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.WebPages.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Newtonsoft.Json.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Antlr3.Runtime.pdb
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\obj\Debug\Demo.dll
+C:\Users\84395\Desktop\Đồ án\Doanchuyennganh\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Demo.dll.config
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Demo.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Demo.pdb
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Owin.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\PagedList.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Buffers.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Memory.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\WebGrease.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\BCrypt.Net-Next.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\DocumentFormat.OpenXml.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\PagedList.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Buffers.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Memory.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\obj\Debug\Demo.dll
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Desktop\t123\Doanchuyennganh\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache

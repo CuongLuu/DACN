@@ -1,0 +1,588 @@
+﻿@model Demo.Models.Context.HomeModel
+
+@{ ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layoutchinh.cshtml"; }
+<!-- Carousel Start -->
+<div class="carousel">
+    <div class="container-fluid">
+        <div class="owl-carousel">
+            @foreach (var item in Model.ListSlide)
+            {
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="~/Content/Template/img/@item.hinhanh" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Trà Sữa <span>@item.name</span> </h1>
+                        <p>
+
+                        </p>
+                        <div class="carousel-btn">
+                            <a class="btn custom-btn" href="">Xem Menu</a>
+                            <a class="btn custom-btn" href="">Đặt món</a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+    </div>
+    <!-- Carousel End -->
+    <!-- Booking Start -->
+    <div class="booking">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="booking-content">
+                        <div class="section-header">
+                            <p>Đặt món</p>
+                            <h2>Đặt những thức uống món ăn phù hợp với sở thích của bạn</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Trà sữa là thức uống quen thuộc, bổ dưỡng của đông đảo các quý cô yêu thích. Những dòng trà sữa ngọt ngào, béo ngậy, thơm phức khiến các cô nàng ngất ngây.
+                            </p>
+                            <p>
+                                Ngày nay, trà sữa ngày càng khiến hội chị em phát cuồng vì ngon ngọt của nó. Hầu như vẻ ngoài của những ly trà sữa đều rất dễ thương và hợp thẩm mĩ của mọi cô gái.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="booking-form">
+                        <form>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Họ và tên" required="required" />
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="far fa-user"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Số điện thoại" required="required" />
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="fa fa-mobile-alt"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group date" id="date" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" placeholder="Ngày đặt" data-target="#date" data-toggle="datetimepicker" />
+                                    <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
+                                        <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group time" id="time" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" placeholder="Thời gian lấy" data-target="#time" data-toggle="datetimepicker" />
+                                    <div class="input-group-append" data-target="#time" data-toggle="datetimepicker">
+                                        <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <select class="custom-select form-control">
+                                        <option selected>Khách</option>
+                                        <option value="1">1 Khách HCM</option>
+                                        <option value="2">2 Khách HN</option>
+                                        <option value="3">3 Khách ĐN</option>
+                                        <option value="4">4 Khách LĐ</option>
+                                        <option value="5">5 Khách CT</option>
+                                        <option value="6">6 Khách TG</option>
+                                        <option value="7">7 Khách LA</option>
+                                        <option value="8">8 Khách HUẾ</option>
+                                        <option value="9">9 Khách ĐÀ NẴNG</option>
+                                        <option value="10">10 Khách VIP</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="fa fa-chevron-down"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn custom-btn" type="submit">Đặt món ngay</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+    <!-- About Start -->
+    <div class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="~/Content/Template/img/chn.jpg" alt="Image">
+                        <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/watch?v=eoJecvGMR6E&list=RDMM&index=6" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-header">
+                            <p>Thông tin về chúng tôi</p>
+                            <h2>CHN Fastfood được thành lập vào năm 2021</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Đem lại cho khách hàng những loại trà sữa từ những cửa hàng nổi tiếng
+                            </p>
+                            <p>
+                                Không ngon chúng tôi không lấy tiền
+                            </p>
+                            <a class="btn custom-btn" href="">Thông tin chi tiết về chúng tôi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Video Modal Start-->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+    <!-- Feature Start -->
+    <div class="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="section-header">
+                        <p>Vì sao lại chọn chúng tôi</p>
+                        <h2>Các tính năng</h2>
+                    </div>
+                    <div class="feature-text">
+                        <div class="feature-img">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="~/Content/Template/img/tsphuclong.jpg" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="~/Content/Template/img/tshighland.jpg" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="~/Content/Template/img/koithe.jpg" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="~/Content/Template/img/thealley.jpg" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus
+                        </p>
+                        <a class="btn custom-btn" href="">Book A Table</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <i class="flaticon-cooking"></i>
+                                <h3>World’s best Chef</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <i class="flaticon-vegetable"></i>
+                                <h3>Natural ingredients</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <i class="flaticon-medal"></i>
+                                <h3>Best quality products</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <i class="flaticon-meat"></i>
+                                <h3>Fresh vegetables & Meet</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <i class="flaticon-courier"></i>
+                                <h3>Fastest door delivery</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-item">
+                                <i class="flaticon-fruits-and-vegetables"></i>
+                                <h3>Ground beef & Low fat</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+    <!-- Menu Start -->
+    <div class="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Thực đơn</p>
+                <h2>Danh sách các loại trà sữa</h2>
+            </div>
+            <div class="menu-tab">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#phuclong">Phúc long</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#highland">HighLand</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#koithe">KoiThe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="pill" href="#thealley">The Alley</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="phuclong" class="container tab-pane active">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 1).Take(5))
+                                {
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="~/Content/Template/img/@item.hinhanh" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>@item.tenSP</span> <strong>̀@item.gia VND</strong></h3>
+                                        </div>
+                                    </div>}
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="~/Content/Template/img/thuonghieuphuclong.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="highland" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 2).Take(5))
+                                {
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="~/Content/Template/img/@item.hinhanh" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>@item.tenSP</span> <strong>̀@item.gia VND</strong></h3>
+                                        </div>
+                                    </div>}
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="~/Content/Template/img/thuonghieuhighland.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="koithe" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 12).Take(5))
+                                {
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="~/Content/Template/img/@item.hinhanh" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>@item.tenSP</span> <strong>̀@item.gia VND</strong></h3>
+                                        </div>
+                                    </div>}
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="~/Content/Template/img/koithelogo.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="thealley" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 13).Take(5))
+                                {
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="~/Content/Template/img/@item.hinhanh" alt="Image">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>@item.tenSP</span> <strong>̀@item.gia VND</strong></h3>
+                                        </div>
+                                    </div>}
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="~/Content/Template/img/thealleylogo.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu End -->
+    <!-- Team Start -->
+    <div class="team">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Các cửa hàng</p>
+                <h2>Danh Sách Các Của Hàng</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div style="height:250px;width:250px;" class="team-img">
+                            <img  src="~/Content/Template/img/Cuahangphuclong.jpg" alt="Image">
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Cửa Hàng Phúc Long</h2>
+                            <p>Quận 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div  style="height:250px;width:250px;" class="team-img">
+                            <img src="~/Content/Template/img/anhcuahanghighland.jpg" alt="Image">
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Cửa Hàng HighLands</h2>
+                            <p>Quận 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div style="height:250px;width:250px;" class="team-img">
+                            <img src="~/Content/Template/img/anhcuahangkoithe.jpg" alt="Image">
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Cửa Hàng KoiThe</h2>
+                            <p>Quận 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div style="height:250px;width:250px;" class="team-img">
+                            <img src="~/Content/Template/img/anhcuahangthealley.jpg" alt="Image">
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Cửa Hàng The Alley</h2>
+                            <p>Quận 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Testimonial Start -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="~/Content/Template/img/hieu.jpg" alt="Image">
+                    </div>
+                    <p>
+                        Hòa đồng, vui tính
+                    </p>
+                    <h2>Trần Minh Hiếu</h2>
+                    <h3>Admin </h3>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="~/Content/Template/img/nam.jpg" alt="Image">
+                    </div>
+                    <p>
+                        Đẹp trai, nhà nghèo
+                    </p>
+                    <h2>Hoàng Phương Nam</h2>
+                    <h3>Admin</h3>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="~/Content/Template/img/cuong.jpg" alt="Image">
+                    </div>
+                    <p>
+                        Câu cá hay, nhà giàu
+                    </p>
+                    <h2>Lưu Sĩ Cương</h2>
+                    <h3>Admin</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    <!-- Contact Start -->
+    <div class="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Liên hệ với chúng tôi</p>
+                <h2>Liên hệ chúng tôi qua các hình thức</h2>
+            </div>
+            <div class="row align-items-center contact-information">
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Địa chỉ</h3>
+                            <p>25/4 Nguyễn Trung Trực , Phường 2,TP.Bảo Lộc , Tỉnh Lâm Đồng</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Gọi Cho Chúng Tôi</h3>
+                            <p>+0948029860</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email </h3>
+                            <p>pnam1910@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-share"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Follow Us</h3>
+                            <div class="contact-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contact-form">
+                <div class="col-md-6">
+                    <div id="map" style="width:500px;height:500px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.1695566638223!2d107.79303981474101!3d11.539691791806435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3173f6445ba3f1b5%3A0x72796126c287f22b!2zMjUsIDQgTmd1eeG7hW4gVHJ1bmcgVHLhu7FjLCBQaMaw4budbmcgMiwgQuG6o28gTOG7mWMsIEzDom0gxJDhu5NuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1636792306913!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="name" placeholder="Họ và tên của bạn" required="required" data-validation-required-message="Please enter your name" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email của bạn" required="required" data-validation-required-message="Please enter your email" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn custom-btn" type="submit" id="sendMessageButton">Gửi tin nhắn</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

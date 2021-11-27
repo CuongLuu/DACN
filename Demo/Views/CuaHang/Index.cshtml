@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Demo.Models.Cuahang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Admin.ten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tenCH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.diachi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sdt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idLike)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.soluongSP)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Admin.ten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tenCH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.diachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sdt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idLike)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.soluongSP)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.maCH }) |
+                @Html.ActionLink("Details", "Details", new { id = item.maCH }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.maCH })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,55 @@
+﻿@using Demo.Models
+@using Demo.Controllers
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layoutchinh.cshtml";
+
+
+}
+<div class="page-header mb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Tìm kiếm</h2>
+            </div>
+            <div class="col-12">
+                <a href="@Url.Action("Index", "Home")">Trang chủ</a>
+                <a href="">Menu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@foreach (var item in Model)
+{
+    <div class="team">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Các cửa hàng</p>
+                <h2>Danh Sách Các Của Hàng</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="~/Content/Template/img/Cuahangphuclong.jpg" alt="Image">
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>@item.tenSP</h2>
+                            <p>@item.Cuahang.tenCH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

@@ -1,0 +1,104 @@
+﻿@model Demo.Models.SanPham
+@using Demo.Models
+@{
+    ViewBag.Title = "Productdetails";
+    Layout = "~/Views/Shared/_Layoutchinh.cshtml";
+}
+
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Chi tiết Sản phẩm</h2>
+            </div>
+            <div class="col-12">
+                <a href="">Trang chủ</a>
+                <a href="">Giỏ hàng</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+<div class="card-wrapper">
+    <div class="card">
+        <!-- card left -->
+        <div class="product-imgs">
+           
+            <div class="img-select">
+                <div class="img-item">
+                    <a href="#" data-id="1">
+                        <img src="~/Content/Template/img/@Model.hinhanh" alt="shoe image">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <!-- card right -->
+        <div class="product-content">
+            <h2 class="product-titlee">@Model.tenSP</h2>
+            <a href="#" class="product-link">Shop: <span>@Model.Cuahang.tenCH</span></a>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>4.7(21)</span>
+            </div>
+
+            <div class="product-price">
+                @*<p class="last-price">Old Price: <span>$257.00</span></p>*@
+                <p class="new-price">Giá: @Model.Size.gia<span>đ</span></p>
+            </div>
+
+            <div class="product-detail">
+                <h2>Mô tả:@Model.mota </h2>
+                <ul>
+                    <li>
+                        Size:
+                        @{
+                            Demo.Models.DBcontext bb = new Demo.Models.DBcontext();
+                            var size = bb.Sizes.ToList();
+                            <select name="topping">
+                                <option value="@Model.maSize">@Model.Size.tenSize</option>
+                            </select>
+                        }
+                    </li>
+                    <li>
+                        Topping:
+                        @{ 
+                            Demo.Models.DBcontext db = new Demo.Models.DBcontext();
+                            var topping = db.Toppings.ToList();
+                            <select name="topping">
+                                <option value="@Model.maTP">@Model.Topping.tenTP</option>
+                            </select>
+                        }
+                    </li>
+                    <li>Số lượng: <input style="width:50px" type="number" min="0" value="1"></li>
+                </ul>
+            </div>
+
+            <div class="purchase-info">
+                
+                
+                <a href="/cart/AddtoCart/@Model.maSP" class="btn">
+                    Thêm vào giỏ hàng <i class="fas fa-shopping-cart"></i>
+                </a>
+                <button type="button" class="btn">Mua ngay</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+@if (Request.IsAuthenticated)
+{
+    <div class="row p-4 ">
+        @{ Html.RenderAction("Index", "Comment"); }
+    </div> }
+else
+{
+    <div class="row p-4 ">
+        <p>Hãy <a href="/account/login">đăng nhập</a> để bình luận :D</p>
+    </div>
+}
+

@@ -1,0 +1,126 @@
+﻿@using Demo.Models
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CHN FastFood - Website Order Đồ Ăn Nhanh </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="~/Content/Template/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Content/Template/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/Content/Template/lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="~/Content/Template/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="~/Content/Template/css/style.css" rel="stylesheet">
+    <!-- CSS productdetail Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- cart-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">CHN <span>Fast</span>Food</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a>
+                        @using (Html.BeginForm("Search", "Home", FormMethod.Post, new { @class = "" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <div class="form-group form-inline">
+                                <input placeholder="Nhập từ khóa" type="text" name="strSearch" class="form-control" />
+                                <input type="submit" name="submit" value="Tìm kiếm" class="form-control" />
+                                @*<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>*@
+                            </div>
+                        }
+                    </a>
+                    <a href="@Url.Action("Index", "Home")" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        @*@Html.Action("BagCart","Cart")*@
+                    </a>
+                    
+                    <a href="about.html" class="nav-item nav-link">About</a>
+
+                    <a href="/Product/allProduct" class="nav-item nav-link">Menu</a>
+                    <a href="booking.html" class="nav-item nav-link">Đặt món</a>
+
+                    
+                    </div>
+                    @if (Session["Account"] != null)
+                    {
+                        NguoiDung u = (NguoiDung)Session["Account"];
+
+                        <div class="nav-item dropdown ">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="true">@u.tenND</a>
+                            <div class="dropdown-menu">
+                                <a href="@Url.Action("ProfileUser", "Home")" class="dropdown-item">Thông tin của tôi</a>
+                                <a href="@Url.Action("EditProfileUser", "Home", new { id=u.maND })" class="dropdown-item">Cập nhật thông tin</a>
+                                <a href="@Url.Action("ChangePasswordUser", "Account", new { id=u.maND })" class="dropdown-item">Đổi mật khẩu</a>
+                                <a href="@Url.Action("Logout", "Account")" class="dropdown-item">Đăng xuất</a>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Login", "Account")" class="nav-item nav-link">Đăng nhập</a>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel Start -->
+    
+    <!-- Carousel End -->
+    @RenderBody()
+    <!-- Blog End -->
+    <!-- Footer Start -->
+    <div class="footer">
+        
+        <div class="copyright">
+            <div class="container">
+                <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/Template/lib/easing/easing.min.js"></script>
+    <script src="~/Content/Template/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/Content/Template/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="~/Content/Template/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="~/Content/Template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="~/Content/Template/mail/jqBootstrapValidation.min.js"></script>
+    <script src="~/Content/Template/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/Content/Template/js/main.js"></script>
+</body>
+</html>
