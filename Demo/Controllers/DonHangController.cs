@@ -152,5 +152,14 @@ namespace Demo.Controllers
             int pageNum = (page ?? 1);
             return View(listDatH.ToPagedList(pageNum, pageSize));
         }
+        public ActionResult DonhangUser (int id , int ?page)
+        {
+            var listDon = db.Donhangs.Where(n => n.maND == id).ToList();
+            if (page == null)
+                page = 1;
+            int pageSize = 9;
+            int pageNum = (page ?? 1);
+            return View(listDon.ToPagedList(pageNum, pageSize));
+        }
     }
 }

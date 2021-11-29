@@ -13,10 +13,10 @@ namespace Demo.Controllers
         public Cart GetCart()
         {
             Cart cart = Session["Cart"] as Cart;
-            if(cart==null || Session["Cart"] == null)
+            if (cart == null || Session["Cart"] == null)
             {
                 cart = new Cart();
-                Session["Cart"] = cart; 
+                Session["Cart"] = cart;
             }
             return cart;
         }
@@ -25,10 +25,19 @@ namespace Demo.Controllers
             var sanpham = context.SanPhams.SingleOrDefault(p => p.maSP == id);
             if (sanpham != null)
             {
-                GetCart().Add(sanpham,1);
-               
+                GetCart().Add(sanpham, 1);
             }
             return RedirectToAction("ShowtoCart", "Cart");
+        }
+        public ActionResult AddtoCart1(int id, string strURL)
+        {
+            var sanpham = context.SanPhams.SingleOrDefault(p => p.maSP == id);
+            if (sanpham != null)
+            {
+                GetCart().Add(sanpham, 1);
+                return Redirect(strURL);
+            }
+            return Redirect(strURL);
         }
         public ActionResult ShowtoCart()
         {
@@ -55,12 +64,12 @@ namespace Demo.Controllers
         {
             int totalitem = 0;
             Cart cart = Session["Cart"] as Cart;
-            if(cart!=null)
-            
+            if (cart != null)
+
                 totalitem = cart.SoluongItemCart();
-                ViewBag.soluongitem = totalitem;
-                return PartialView("BagCart");
-            
+            ViewBag.soluongitem = totalitem;
+            return PartialView("BagCart");
+
         }
         /*DBcontext context = new DBcontext();
         private const string CartSession = "CartSession";
@@ -119,5 +128,6 @@ namespace Demo.Controllers
             }
             return RedirectToAction("Cart");
         }*/
+
     }
 }

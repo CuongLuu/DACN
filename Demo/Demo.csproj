@@ -2884,13 +2884,17 @@
     <Content Include="Content\Template\img\blog-2.jpg" />
     <Content Include="Content\Template\img\blog-3.jpg" />
     <Content Include="Content\Template\img\blog-4.jpg" />
+    <Content Include="Content\Template\img\buoi-ep.png" />
     <Content Include="Content\Template\img\ca-phe-bon-tu-hanh-nhan-phuc-long.png" />
     <Content Include="Content\Template\img\ca-phe-den-30k.png" />
     <Content Include="Content\Template\img\ca-phe-latte-40k.png" />
     <Content Include="Content\Template\img\ca-phe-socola.png" />
+    <Content Include="Content\Template\img\ca-phe-sua-35k.png" />
+    <Content Include="Content\Template\img\cam-ep-40k.png" />
     <Content Include="Content\Template\img\cappucino-59k.png" />
     <Content Include="Content\Template\img\capuchino-35k.png" />
     <Content Include="Content\Template\img\caramel-cappuchino-59k.png" />
+    <Content Include="Content\Template\img\caramel-da-xay-55k.png" />
     <Content Include="Content\Template\img\carousel-1.jpg" />
     <Content Include="Content\Template\img\carousel-2.jpg" />
     <Content Include="Content\Template\img\carousel-3.jpg" />
@@ -2910,6 +2914,7 @@
     <Content Include="Content\Template\img\feature-4.jpg" />
     <Content Include="Content\Template\img\freeze-socola-49k.png" />
     <Content Include="Content\Template\img\freezehighland.png" />
+    <Content Include="Content\Template\img\giaohang.jpg" />
     <Content Include="Content\Template\img\hieu.jpg" />
     <Content Include="Content\Template\img\highland1.jpg" />
     <Content Include="Content\Template\img\hong-tra-chanh-45k.png" />
@@ -2936,8 +2941,13 @@
     <Content Include="Content\Template\img\post-5.jpg" />
     <Content Include="Content\Template\img\sharetea.jpg" />
     <Content Include="Content\Template\img\single.jpg" />
+    <Content Include="Content\Template\img\sinh-to-chanh-45k.png" />
+    <Content Include="Content\Template\img\sinh-to-chuoi-40k.png" />
+    <Content Include="Content\Template\img\sinh-to-dau-55k.png" />
+    <Content Include="Content\Template\img\sinh-to-xoai-50k.png" />
     <Content Include="Content\Template\img\socola-40k.png" />
     <Content Include="Content\Template\img\tao-ep-40k.png" />
+    <Content Include="Content\Template\img\tao-va-dau-ep.jpg" />
     <Content Include="Content\Template\img\team-1.jpg" />
     <Content Include="Content\Template\img\team-2.jpg" />
     <Content Include="Content\Template\img\team-3.jpg" />
@@ -3841,6 +3851,7 @@
     <Content Include="Views\Payment\Thongbao.cshtml" />
     <Content Include="Views\Payment\infUser.cshtml" />
     <Content Include="Views\DonHang\Dathang.cshtml" />
+    <Content Include="Views\DonHang\DonhangUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

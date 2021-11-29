@@ -18,8 +18,8 @@
 
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn custom-btn" href="">Xem Menu</a>
-                            <a class="btn custom-btn" href="">Đặt món</a>
+                            <a class="btn custom-btn" href="/Product/allProduct">Xem Menu</a>
+                            <a class="btn custom-btn" href="/Cart/ShowtoCart">Đặt món</a>
                         </div>
                     </div>
                 </div>
@@ -30,97 +30,97 @@
     </div>
     <!-- Carousel End -->
     <!-- Booking Start -->
-    <div class="booking">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="booking-content">
-                        <div class="section-header">
-                            <p>Đặt món</p>
-                            <h2>Đặt những thức uống món ăn phù hợp với sở thích của bạn</h2>
-                        </div>
-                        <div class="about-text">
-                            <p>
-                                Trà sữa là thức uống quen thuộc, bổ dưỡng của đông đảo các quý cô yêu thích. Những dòng trà sữa ngọt ngào, béo ngậy, thơm phức khiến các cô nàng ngất ngây.
-                            </p>
-                            <p>
-                                Ngày nay, trà sữa ngày càng khiến hội chị em phát cuồng vì ngon ngọt của nó. Hầu như vẻ ngoài của những ly trà sữa đều rất dễ thương và hợp thẩm mĩ của mọi cô gái.
-                            </p>
+    @*<div class="booking">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="booking-content">
+                            <div class="section-header">
+                                <p>Đặt món</p>
+                                <h2>Đặt những thức uống món ăn phù hợp với sở thích của bạn</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Trà sữa là thức uống quen thuộc, bổ dưỡng của đông đảo các quý cô yêu thích. Những dòng trà sữa ngọt ngào, béo ngậy, thơm phức khiến các cô nàng ngất ngây.
+                                </p>
+                                <p>
+                                    Ngày nay, trà sữa ngày càng khiến hội chị em phát cuồng vì ngon ngọt của nó. Hầu như vẻ ngoài của những ly trà sữa đều rất dễ thương và hợp thẩm mĩ của mọi cô gái.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="booking-form">
-                        <form>
-                            <div class="control-group">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Họ và tên" required="required" />
-                                    <div class="input-group-append">
-                                        <div class="input-group-text"><i class="far fa-user"></i></div>
+                    <div class="col-lg-5">
+                        <div class="booking-form">
+                            <form>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Họ và tên" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="far fa-user"></i></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
-                                    <div class="input-group-append">
-                                        <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Email" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Số điện thoại" required="required" />
-                                    <div class="input-group-append">
-                                        <div class="input-group-text"><i class="fa fa-mobile-alt"></i></div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Số điện thoại" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="fa fa-mobile-alt"></i></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="input-group date" id="date" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" placeholder="Ngày đặt" data-target="#date" data-toggle="datetimepicker" />
-                                    <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
-                                        <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                <div class="control-group">
+                                    <div class="input-group date" id="date" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Ngày đặt" data-target="#date" data-toggle="datetimepicker" />
+                                        <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="input-group time" id="time" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" placeholder="Thời gian lấy" data-target="#time" data-toggle="datetimepicker" />
-                                    <div class="input-group-append" data-target="#time" data-toggle="datetimepicker">
-                                        <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                <div class="control-group">
+                                    <div class="input-group time" id="time" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Thời gian lấy" data-target="#time" data-toggle="datetimepicker" />
+                                        <div class="input-group-append" data-target="#time" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="input-group">
-                                    <select class="custom-select form-control">
-                                        <option selected>Khách</option>
-                                        <option value="1">1 Khách HCM</option>
-                                        <option value="2">2 Khách HN</option>
-                                        <option value="3">3 Khách ĐN</option>
-                                        <option value="4">4 Khách LĐ</option>
-                                        <option value="5">5 Khách CT</option>
-                                        <option value="6">6 Khách TG</option>
-                                        <option value="7">7 Khách LA</option>
-                                        <option value="8">8 Khách HUẾ</option>
-                                        <option value="9">9 Khách ĐÀ NẴNG</option>
-                                        <option value="10">10 Khách VIP</option>
-                                    </select>
-                                    <div class="input-group-append">
-                                        <div class="input-group-text"><i class="fa fa-chevron-down"></i></div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <select class="custom-select form-control">
+                                            <option selected>Khách</option>
+                                            <option value="1">1 Khách HCM</option>
+                                            <option value="2">2 Khách HN</option>
+                                            <option value="3">3 Khách ĐN</option>
+                                            <option value="4">4 Khách LĐ</option>
+                                            <option value="5">5 Khách CT</option>
+                                            <option value="6">6 Khách TG</option>
+                                            <option value="7">7 Khách LA</option>
+                                            <option value="8">8 Khách HUẾ</option>
+                                            <option value="9">9 Khách ĐÀ NẴNG</option>
+                                            <option value="10">10 Khách VIP</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="fa fa-chevron-down"></i></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div>
-                                <button class="btn custom-btn" type="submit">Đặt món ngay</button>
-                            </div>
-                        </form>
+                                <div>
+                                    <button class="btn custom-btn" type="submit">Đặt món ngay</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>*@
     <!-- Booking End -->
     <!-- About Start -->
     <div class="about">
@@ -173,102 +173,102 @@
     </div>
     <!-- Video Modal End -->
     <!-- Feature Start -->
-    <div class="feature">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="section-header">
-                        <p>Vì sao lại chọn chúng tôi</p>
-                        <h2>Các tính năng</h2>
-                    </div>
-                    <div class="feature-text">
-                        <div class="feature-img">
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="~/Content/Template/img/tsphuclong.jpg" alt="Image">
-                                </div>
-                                <div class="col-6">
-                                    <img src="~/Content/Template/img/tshighland.jpg" alt="Image">
-                                </div>
-                                <div class="col-6">
-                                    <img src="~/Content/Template/img/koithe.jpg" alt="Image">
-                                </div>
-                                <div class="col-6">
-                                    <img src="~/Content/Template/img/thealley.jpg" alt="Image">
-                                </div>
-                            </div>
+    @*<div class="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="section-header">
+                            <p>Vì sao lại chọn chúng tôi</p>
+                            <h2>Các tính năng</h2>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus
-                        </p>
-                        <a class="btn custom-btn" href="">Book A Table</a>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="feature-item">
-                                <i class="flaticon-cooking"></i>
-                                <h3>World’s best Chef</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                </p>
+                        <div class="feature-text">
+                            <div class="feature-img">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="~/Content/Template/img/tsphuclong.jpg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="~/Content/Template/img/tshighland.jpg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="~/Content/Template/img/koithe.jpg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="~/Content/Template/img/thealley.jpg" alt="Image">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="feature-item">
-                                <i class="flaticon-vegetable"></i>
-                                <h3>Natural ingredients</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                </p>
-                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus
+                            </p>
+                            <a class="btn custom-btn" href="">Book A Table</a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="feature-item">
-                                <i class="flaticon-medal"></i>
-                                <h3>Best quality products</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                </p>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-cooking"></i>
+                                    <h3>World’s best Chef</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-vegetable"></i>
+                                    <h3>Natural ingredients</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="feature-item">
-                                <i class="flaticon-meat"></i>
-                                <h3>Fresh vegetables & Meet</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                </p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-medal"></i>
+                                    <h3>Best quality products</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-meat"></i>
+                                    <h3>Fresh vegetables & Meet</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="feature-item">
-                                <i class="flaticon-courier"></i>
-                                <h3>Fastest door delivery</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                </p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-courier"></i>
+                                    <h3>Fastest door delivery</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="feature-item">
-                                <i class="flaticon-fruits-and-vegetables"></i>
-                                <h3>Ground beef & Low fat</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
-                                </p>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-fruits-and-vegetables"></i>
+                                    <h3>Ground beef & Low fat</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>*@
     <!-- Feature End -->
     <!-- Menu Start -->
     <div class="menu">
@@ -385,12 +385,12 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                         <div style="height:250px;width:250px;" class="team-img">
-                            <img  src="~/Content/Template/img/Cuahangphuclong.jpg" alt="Image">
+                            <img src="~/Content/Template/img/Cuahangphuclong.jpg" alt="Image">
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/phuclongcoffeeandtea/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/phuclongcoffeeandtea/"><i class="fab fa-facebook-f"></i></a>
+
+
                             </div>
                         </div>
                         <div class="team-text">
@@ -401,13 +401,13 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
-                        <div  style="height:250px;width:250px;" class="team-img">
+                        <div style="height:250px;width:250px;" class="team-img">
                             <img src="~/Content/Template/img/anhcuahanghighland.jpg" alt="Image">
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/highlandscoffeevietnam/?hl=vi"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/highlandscoffeevietnam/"><i class="fab fa-facebook-f"></i></a>
+
+
                             </div>
                         </div>
                         <div class="team-text">
@@ -421,10 +421,10 @@
                         <div style="height:250px;width:250px;" class="team-img">
                             <img src="~/Content/Template/img/anhcuahangkoithe.jpg" alt="Image">
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/koithevietnam/?hl=vi"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/KOITheVietnam/"><i class="fab fa-facebook-f"></i></a>
+
+
                             </div>
                         </div>
                         <div class="team-text">
@@ -438,10 +438,10 @@
                         <div style="height:250px;width:250px;" class="team-img">
                             <img src="~/Content/Template/img/anhcuahangthealley.jpg" alt="Image">
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/thealley.vietnam/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/thealleyvietnam"><i class="fab fa-facebook-f"></i></a>
+
+
                             </div>
                         </div>
                         <div class="team-text">
@@ -542,11 +542,11 @@
                         <div class="contact-text">
                             <h3>Follow Us</h3>
                             <div class="contact-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-youtube"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+
+                                <a href="https://www.facebook.com/profile.php?id=100008948147506"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/pnam1910/"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/channel/UCFswrFf5GIz-XpmkBK_9Psw"><i class="fab fa-instagram"></i></a>
+
                             </div>
                         </div>
                     </div>
