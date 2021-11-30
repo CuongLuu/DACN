@@ -208,7 +208,15 @@ namespace Demo.Controllers
         {
             try
             {
+                n.status = 0;
+                n.ngaytao = DateTime.Now;
+                if (Session["AccountAdmin"] != null)
+                {
+                    Admin e = (Admin)Session["AccountAdmin"];
 
+
+                    n.idAdmin = e.idAdmin;
+                }
                 //get photo
                 if (ModelState.IsValid)
                 {
@@ -300,6 +308,15 @@ namespace Demo.Controllers
             ViewBag.maSize = new SelectList(context.Sizes, "maSize", "tenSize", sanPham.maSize);
             ViewBag.maTP = new SelectList(context.Toppings, "maTP", "tenTP", sanPham.maTP);
             return View(sanPham);
+        }
+        public ActionResult ProductCH(int id, int? page)
+        {
+            var listProductCH = context.SanPhams.Where(n => n.idAdmin == id).ToList();
+            if (page == null)
+                page = 1;
+            int pageSize = 9;
+            int pageNum = (page ?? 1);
+            return View(listProductCH.ToPagedList(pageNum, pageSize));
         }
     }
 }

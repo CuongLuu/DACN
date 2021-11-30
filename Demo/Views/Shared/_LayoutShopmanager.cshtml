@@ -182,41 +182,21 @@
                             </a>
                             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-dark bg-default  dropdown-menu-right ">
                                 <div class="row shortcuts px-4">
-                                    <a href="#!" class="col-4 shortcut-item">
-                                        <span class="shortcut-media avatar rounded-circle bg-gradient-red">
-                                            <i class="ni ni-calendar-grid-58"></i>
-                                        </span>
-                                        <small>Calendar</small>
-                                    </a>
-                                    <a href="#!" class="col-4 shortcut-item">
-                                        <span class="shortcut-media avatar rounded-circle bg-gradient-orange">
-                                            <i class="ni ni-email-83"></i>
-                                        </span>
-                                        <small>Email</small>
-                                    </a>
+                                    <
+                                  
                                     <a href="#!" class="col-4 shortcut-item">
                                         <span class="shortcut-media avatar rounded-circle bg-gradient-info">
                                             <i class="ni ni-credit-card"></i>
                                         </span>
-                                        <small>Payments</small>
+                                        <small>Đơn hàng</small>
                                     </a>
-                                    <a href="#!" class="col-4 shortcut-item">
-                                        <span class="shortcut-media avatar rounded-circle bg-gradient-green">
-                                            <i class="ni ni-books"></i>
-                                        </span>
-                                        <small>Reports</small>
-                                    </a>
-                                    <a href="#!" class="col-4 shortcut-item">
-                                        <span class="shortcut-media avatar rounded-circle bg-gradient-purple">
-                                            <i class="ni ni-pin-3"></i>
-                                        </span>
-                                        <small>Maps</small>
-                                    </a>
-                                    <a href="#!" class="col-4 shortcut-item">
+                                  
+                                   
+                                    <a href="/Product/ProductCH" class="col-4 shortcut-item">
                                         <span class="shortcut-media avatar rounded-circle bg-gradient-yellow">
                                             <i class="ni ni-basket"></i>
                                         </span>
-                                        <small>Shop</small>
+                                        <small>Cửa hàng</small>
                                     </a>
                                 </div>
                             </div>
@@ -262,6 +242,10 @@
                                     <a href="@Url.Action("CreateUser","Product",new { id=e.idAdmin })" class="dropdown-item">
                                         <i class="ni ni-money-coins"></i>
                                         <span>Thêm sản phẩm</span>
+                                    </a>
+                                    <a href="@Url.Action("ProductCH","Product",new { id=e.idAdmin })" class="dropdown-item">
+                                        <i class="ni ni-shop"></i>
+                                        <span>Sản phẩm cửa hàng</span>
                                     </a>
                                     <div class="dropdown-divider"></div>
                                     <a href="@Url.Action("LogoutAdmin", "Account")" class="dropdown-item">
