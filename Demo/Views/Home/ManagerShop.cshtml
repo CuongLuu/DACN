@@ -1,0 +1,88 @@
+﻿@using Demo.Models
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/Content/LogginAdmin/css/style.css">
+
+</head>
+<body class="img js-fullheight" style="background-image: url(/Content/LogginAdmin/images/bg.jpg);">
+    <div class="main-content" id="panel">
+        <!-- Topnav -->
+        <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    @*logo*@
+                    <ul class="navbar-nav align-items-center  ml-auto ml-md-0 ">
+                        <li class="nav-item dropdown">
+
+                            <div class="media align-items-center">
+                                <div class="media-body  ml-2  d-none d-lg-block">
+                                    <span class="mb-0 text-sm  font-weight-bold">
+                                        <a href="#" style="
+                                                    font-size: 30px;
+                                                    color: white;
+                                                    font-family: 'Cabin', sans-serif;
+                                                ">CHN FAST FOOD</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Quản Lý Chính</h2>
+                </div>
+            </div>
+            @if (Session["AccountAdmin"] != null)
+            {
+
+                Admin e = (Admin)Session["AccountAdmin"];
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="login-wrap p-0">
+                            <div class="social d-flex text-center">
+                                <a href="@Url.Action("AuthorProfile", "Home",new { id = e.idAdmin })" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span> Thông tin cá nhân</a>
+                                <a href="@Url.Action("LogoutAdmin", "Account")" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span> Đăng xuất</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="login-wrap p-0">
+                            <div class="social d-flex text-center">
+                                <a href="#" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span> Thông tin cửa hàng</a>
+                                <a href="@Url.Action("HomeOfAuthor", "Home")" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span> Quản lý cửa hàng</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+
+    <script src="~/Content/LogginAdmin/js/jquery.min.js"></script>
+    <script src="~/Content/LogginAdmin/js/popper.js"></script>
+    <script src="~/Content/LogginAdmin/js/bootstrap.min.js"></script>
+    <script src="~/Content/LogginAdmin/js/main.js"></script>
+
+</body>
+</html>

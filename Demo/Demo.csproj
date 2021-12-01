@@ -3853,6 +3853,10 @@
     <Content Include="Views\DonHang\Dathang.cshtml" />
     <Content Include="Views\DonHang\DonhangUser.cshtml" />
     <Content Include="Views\Product\ProductCH.cshtml" />
+    <Content Include="Views\Home\ManagerShop.cshtml" />
+    <Content Include="Views\Home\AuthorProfile.cshtml" />
+    <Content Include="Views\Home\EditProfileAuthor.cshtml" />
+    <Content Include="Views\Account\ChangepasswordAuthor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

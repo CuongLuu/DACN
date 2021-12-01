@@ -136,7 +136,7 @@ namespace Demo.Controllers
                     else if (u.type == 0)
                     {
                         Session["AccountAdmin"] = u;
-                        return RedirectToAction("HomeOfAuthor", "Home");
+                        return RedirectToAction("ManagerShop", "Home");
                     }
 
                 }
@@ -300,6 +300,58 @@ namespace Demo.Controllers
                 }
             }
             return RedirectToAction("Index", "Home");
+
+        }
+        public ActionResult ChangepasswordAuthor()
+        {
+            return View();
+        }
+
+        [HttpPost, ActionName("ChangepasswordAuthor")]
+        [ValidateAntiForgeryToken]
+        public ActionResult ChangepasswordAuthor(FormCollection f)
+        {
+            string oldpass = f["oldPass"].ToString();
+            string newpass = f["newPass"].ToString();
+            string renewpass = f["reNewPass"].ToString();
+            if (Session["AccountAdmin"] != null)
+            {
+                Admin e = (Admin)Session["AccountAdmin"];
+                string hashpass = e.matkhau;
+                Boolean checkPass = BCrypt.Net.BCrypt.Verify(oldpass, hashpass);
+                // if user input right password 
+                if (checkPass)
+                {
+                    //if new pass = old pass return view()
+                    if (newpass == oldpass)
+                    {
+                        ViewBag.status = "Mật khẩu mới không được trùng mật khẩu cũ!";
+                        return View();
+                    }
+                    else
+                    {
+                        if (newpass != renewpass)
+                        {
+                            ViewBag.status = "Mật khẩu mới không khớp nhau!";
+                            return View();
+                        }
+                        else
+                        {
+                            e.matkhau = BCrypt.Net.BCrypt.HashPassword(f["newpass"].ToString(), 12);
+                            context.Admins.AddOrUpdate(e);
+                            context.SaveChanges();
+                        }
+                    }
+
+
+                }
+                else
+                {
+                    ViewBag.status = "Mật khẩu không đúng!";
+                    return View();
+                }
+            }
+            return RedirectToAction("ManagerShop", "Home");
 
         }
     }

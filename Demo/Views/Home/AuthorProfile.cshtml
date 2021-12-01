@@ -1,7 +1,7 @@
 ﻿@using Demo.Models
 @{
-    ViewBag.Title = "ProfileAdmin";
-    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "AuthorProfile";
+    Layout = "~/Views/Shared/_LayoutShopmanager.cshtml";
 }
 
 <!DOCTYPE html>
@@ -60,22 +60,22 @@
             </div>
         </div>
         @*<div class="set-menu">
-            <p>Select Color</p>
-            <div class="color-bar" data-toggle="selected">
-                <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
-                <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
-                <span class="color-item bg-theme-green" data-class="theme-green"></span>
-                <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
-                <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
-            </div>
-            <select class="custom-select d-block my-2" id="change-page">
-                <option value="">Choose Page</option>
-                <option value="index">Topbar</option>
-                <option value="blog-topbar">Blog (Topbar)</option>
-                <option value="index-2">Minibar</option>
-                <option value="blog-minibar">Blog (Minibar)</option>
-            </select>
-        </div>*@
+                <p>Select Color</p>
+                <div class="color-bar" data-toggle="selected">
+                    <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
+                    <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+                    <span class="color-item bg-theme-green" data-class="theme-green"></span>
+                    <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
+                    <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
+                </div>
+                <select class="custom-select d-block my-2" id="change-page">
+                    <option value="">Choose Page</option>
+                    <option value="index">Topbar</option>
+                    <option value="blog-topbar">Blog (Topbar)</option>
+                    <option value="index-2">Minibar</option>
+                    <option value="blog-minibar">Blog (Minibar)</option>
+                </select>
+            </div>*@
     </div>
 
     <div class="topbar-nav fixed-top">
@@ -86,7 +86,7 @@
         <button class="btn-fab toggle-menu mr-3"><span class="ti-menu"></span></button>
     </div>
 
-    
+
 
     <div class="vg-main-wrapper">
         <div class="vg-page page-home" id="home" style="background-image: url(/Content/assets/img/bg_image_2.jpg);">
@@ -100,7 +100,7 @@
                     <p class="tagline">Một số thông tin của bạn</p>
                 </div>
             }
-            </div>
+        </div>
 
         <!-- Page About -->
         <div class="vg-page page-about" id="about">
@@ -132,7 +132,7 @@
                                     else if (@u.type == 2)
                                     {
                                         <p class="fg-theme fw-medium">Nhân viên</p>
-                                    }                                    
+                                    }
                                 }
                                 <p>Bí quyết thành công trong đời là cứ ăn những gì bạn thích mặc cho chúng có quậy tưng cái bụng của bạn.</p>
                                 <ul class="theme-list">
@@ -165,6 +165,7 @@
                                     </li>
                                 </ul>
                                 <a href="@Url.Action("EditProfileAuthor","Home",new { id=u.idAdmin })"><button class="btn btn-theme btn-rounded">Chỉnh sửa</button></a>
+
                             </div>
                         </div>
                     </div>
@@ -200,6 +201,7 @@
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
         </div>
     </div>
-    
+
 </body>
 </html>
+
