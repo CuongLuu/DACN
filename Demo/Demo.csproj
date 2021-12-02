@@ -217,7 +217,6 @@
     <Compile Include="Models\Context\HomeModel.cs" />
     <Compile Include="Models\CTHD.cs" />
     <Compile Include="Models\Cuahang.cs" />
-    <Compile Include="Models\Danhgia.cs" />
     <Compile Include="Models\DBcontext.cs" />
     <Compile Include="Models\Donhang.cs" />
     <Compile Include="Models\Gioithieu.cs" />
@@ -3858,6 +3857,8 @@
     <Content Include="Views\Home\EditProfileAuthor.cshtml" />
     <Content Include="Views\Account\ChangepasswordAuthor.cshtml" />
     <Content Include="Views\Shop\tenShop.cshtml" />
+    <Content Include="Views\CuaHang\RegisterShop.cshtml" />
+    <Content Include="Views\Home\ProfileShop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

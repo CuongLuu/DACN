@@ -231,5 +231,11 @@ namespace Demo.Controllers
                 return View();
             }
         }
+        public ActionResult ProfileShop()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

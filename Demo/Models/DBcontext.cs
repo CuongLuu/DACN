@@ -16,7 +16,6 @@ namespace Demo.Models
         public virtual DbSet<CMT> CMTs { get; set; }
         public virtual DbSet<CTHD> CTHDs { get; set; }
         public virtual DbSet<Cuahang> Cuahangs { get; set; }
-        public virtual DbSet<Danhgia> Danhgias { get; set; }
         public virtual DbSet<Donhang> Donhangs { get; set; }
         public virtual DbSet<Gioithieu> Gioithieux { get; set; }
         public virtual DbSet<HoaDon> HoaDons { get; set; }
@@ -96,11 +95,6 @@ namespace Demo.Models
 
             modelBuilder.Entity<NguoiDung>()
                 .HasMany(e => e.CTHDs)
-                .WithRequired(e => e.NguoiDung)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<NguoiDung>()
-                .HasMany(e => e.Danhgias)
                 .WithRequired(e => e.NguoiDung)
                 .WillCascadeOnDelete(false);
 

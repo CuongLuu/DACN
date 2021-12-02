@@ -145,5 +145,38 @@ namespace Demo.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult RegisterShop()
+        {
+            return View();
+        }
+
+        [HttpPost, ActionName("RegisterShop")]
+        [ValidateAntiForgeryToken]
+        public ActionResult RegisterShop(FormCollection f)
+        {        
+                Admin u = (Admin)Session["AccountAdmin"];
+                Cuahang s = new Cuahang();
+                if (Session["CuaHang"]==null)
+                {
+                    s.maCH = u.idAdmin;
+                    s.email = f["email"].ToString();
+                    s.tenCH = f["name"].ToString();
+                    s.sdt = f["phone"].ToString();
+                    s.diachi = f["address"].ToString();
+                s.idAdmin = u.idAdmin;
+                    db.Cuahangs.Add(s);
+                    db.SaveChanges();
+                    Session["CuaHang"] = s;
+                    ViewBag.Status = "Đăng kí cửa hàng thành công!";
+                    return View();
+                }
+                else
+                {
+                    ViewBag.Status = "Đăng ký thất bại!";
+                    return View("");
+                }
+
+        }
     }
 }

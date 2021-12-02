@@ -13,12 +13,12 @@ namespace Demo.Models
         public Cuahang()
         {
             CTHDs = new HashSet<CTHD>();
-            Danhgias = new HashSet<Danhgia>();
             Donhangs = new HashSet<Donhang>();
             SanPhams = new HashSet<SanPham>();
         }
 
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int maCH { get; set; }
 
         [StringLength(50)]
@@ -35,17 +35,10 @@ namespace Demo.Models
 
         public int idAdmin { get; set; }
 
-        public int idLike { get; set; }
-
-        public int soluongSP { get; set; }
-
         public virtual Admin Admin { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CTHD> CTHDs { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Danhgia> Danhgias { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Donhang> Donhangs { get; set; }

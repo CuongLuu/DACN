@@ -15,7 +15,6 @@ namespace Demo.Models
         {
             CMTs = new HashSet<CMT>();
             CTHDs = new HashSet<CTHD>();
-            Danhgias = new HashSet<Danhgia>();
             Donhangs = new HashSet<Donhang>();
             SubCMTs = new HashSet<SubCMT>();
         }
@@ -34,6 +33,7 @@ namespace Demo.Models
         public string anh { get; set; }
         [NotMapped]
         public HttpPostedFileBase ImageUpload { get; set; }
+
         [StringLength(11)]
         public string sdt { get; set; }
 
@@ -57,9 +57,6 @@ namespace Demo.Models
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CTHD> CTHDs { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Danhgia> Danhgias { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Donhang> Donhangs { get; set; }

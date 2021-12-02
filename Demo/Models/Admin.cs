@@ -27,6 +27,7 @@ namespace Demo.Models
         public string anh { get; set; }
         [NotMapped]
         public HttpPostedFileBase ImageUpload { get; set; }
+
         public byte? gioitinh { get; set; }
 
         [Column(TypeName = "date")]
@@ -54,6 +55,8 @@ namespace Demo.Models
         public DateTime? ngaytao { get; set; }
 
         public DateTime? ngaysua { get; set; }
+
+        public int? cuahang { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Cuahang> Cuahangs { get; set; }

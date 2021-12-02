@@ -136,6 +136,8 @@ namespace Demo.Controllers
                     else if (u.type == 0)
                     {
                         Session["AccountAdmin"] = u;
+                        Cuahang s = context.Cuahangs.Where(n => n.maCH == u.idAdmin).SingleOrDefault();
+                        Session["CuaHang"] = s;
                         return RedirectToAction("ManagerShop", "Home");
                     }
 
