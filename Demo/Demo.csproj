@@ -2819,9 +2819,11 @@
     <Content Include="Content\assets\favicon.ico" />
     <Content Include="Content\assets\fonts\maicons.svg" />
     <Content Include="Content\assets\fonts\themify.svg" />
+    <Content Include="Content\assets\img\background.jpeg" />
     <Content Include="Content\assets\img\bg_banner.jpg" />
     <Content Include="Content\assets\img\bg_image_1.jpg" />
     <Content Include="Content\assets\img\bg_image_2.jpg" />
+    <Content Include="Content\assets\img\img-1-1000x600.jpg" />
     <Content Include="Content\assets\img\logo\amazon.png" />
     <Content Include="Content\assets\img\logo\company_1.svg" />
     <Content Include="Content\assets\img\logo\company_2.svg" />

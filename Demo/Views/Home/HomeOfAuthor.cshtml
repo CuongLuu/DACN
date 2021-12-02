@@ -8,22 +8,22 @@
 
 <!-- Header -->
 <!-- Header -->
-<div class="header pb-6 d-flex align-items-center" style="min-height: 500px; background-image: url(/Content/images/bg.jpg); background-size: cover; background-position: center top;">
+<div class="header pb-6 d-flex align-items-center" style="min-height: 500px; background-image: url(/Content/assets/img/background.jpeg); background-size: cover; background-position: center top;">
     <!-- Mask -->
     <span class="mask bg-gradient-default opacity-8"></span>
     <!-- Header container -->
     <div class="container-fluid d-flex align-items-center">
         <div class="row">
             <div class="col-lg-7 col-md-10">
-                @if (Session["AccountAuthor"] != null)
+                @if (Session["AccountAdmin"] != null)
                 {
 
-                    Admin u = (Admin)Session["AccountAuthor"];
-                    <h1 class="display-2 text-white">Hello @u.ten</h1>
+                    Admin u = (Admin)Session["AccountAdmin"];
+                    <h1 class="display-2 text-white">Xin Chào @u.ten</h1>
                     <p class="text-white mt-0 mb-5">
-                        Đây là trang dành cho tác giả. Bạn có thể theo dõi các bài viết xem nhiều ở bên dưới và tạo bài viết mới khi nhấn vào nút dưới đây.
+                        Đây là trang dành cho cửa hàng. Bạn có thể theo dõi các sản phẩm  ở bên dưới và thêm sản phẩm mới khi nhấn vào nút dưới đây.
                     </p>
-                    <a href="@Url.Action("AuthorAddNews","News")" class="btn btn-neutral"> Viết bài</a>
+                    <a href="@Url.Action("CreateUser","Product",new { id=u.idAdmin })" class="btn btn-neutral">Thêm sản phẩm</a>
                 }
             </div>
         </div>
@@ -34,24 +34,24 @@
     <div class="row">
         <div class="col-xl-4 order-xl-2">
             <div class="card card-profile">
-                @if (Session["AccountAuthor"] != null)
+                @if (Session["AccountAdmin"] != null)
                 {
 
-                    Admin u = (Admin)Session["AccountAuthor"];
-                    <img src="~/Content/assets/img/theme/img-1-1000x600.jpg" alt="Image placeholder" class="card-img-top">
+                    Admin u = (Admin)Session["AccountAdmin"];
+                    <img src="~/Content/assets/img/img-1-1000x600.jpg" alt="Image placeholder" class="card-img-top">
                     <div class="row justify-content-center">
                         <div class="col-lg-3 order-lg-2">
                             <div class="card-profile-image">
                                 <a href="#">
-                                    <img src="~/UploadedFiles/images/@u.anh" class="rounded-circle">
+                                    <img src="~/Image/ImageUpload/@u.anh" class="rounded-circle">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="btn btn-sm btn-info  mr-4 ">Connect</a>
-                            <a href="#" class="btn btn-sm btn-default float-right">Message</a>
+                            <a href="@Url.Action("AuthorProfile", "Home",new { id = u.idAdmin })" class="btn btn-sm btn-info  mr-4 ">Chi tiết</a>
+                            <a href="@Url.Action("EditProfileAuthor","Home",new { id=u.idAdmin })" class="btn btn-sm btn-default float-right">Chỉnh sửa</a>
                         </div>
                     </div>
                     <div class="card-body pt-0">
