@@ -3857,6 +3857,7 @@
     <Content Include="Views\Home\AuthorProfile.cshtml" />
     <Content Include="Views\Home\EditProfileAuthor.cshtml" />
     <Content Include="Views\Account\ChangepasswordAuthor.cshtml" />
+    <Content Include="Views\Shop\tenShop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

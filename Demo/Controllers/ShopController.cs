@@ -18,12 +18,20 @@ namespace Demo.Controllers
     {
         DBcontext context = new DBcontext();
         // GET: Shop
-        public ActionResult Shop()
+        public ActionResult Shop(int id)
         {
-            HomeModel obj = new HomeModel();
-            obj.ListSP = context.SanPhams.ToList();
-            obj.ListSlide = context.Sildes.ToList();
-            return View(obj);
+
+            List<SanPham> list = new List<SanPham>();
+            list = context.SanPhams.Where(p => p.maCH == id).ToList();
+            return View(list);
+
+        }
+        public ActionResult tenShop(int id)
+        {
+            Cuahang ch = context.Cuahangs.FirstOrDefault(p => p.maCH == id);
+            var ten = ch.tenCH;
+            ViewBag.tench = ten;
+            return PartialView("tenShop");
         }
     }
 }
