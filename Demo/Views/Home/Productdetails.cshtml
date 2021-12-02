@@ -23,14 +23,14 @@
     <div class="card">
         <!-- card left -->
         <div class="product-imgs">
-           
+
             <div class="img-select">
                 <div class="img-item">
                     <a href="#" data-id="1">
                         <img src="~/Content/Template/img/@Model.hinhanh" alt="shoe image">
                     </a>
                 </div>
-                
+
             </div>
         </div>
         <!-- card right -->
@@ -66,7 +66,7 @@
                     </li>
                     <li>
                         Topping:
-                        @{ 
+                        @{
                             Demo.Models.DBcontext db = new Demo.Models.DBcontext();
                             var topping = db.Toppings.ToList();
                             <select name="topping">
@@ -79,8 +79,8 @@
             </div>
 
             <div class="purchase-info">
-                
-                
+
+
                 <a href="/cart/AddtoCart/@Model.maSP" class="btn">
                     Thêm vào giỏ hàng <i class="fas fa-shopping-cart"></i>
                 </a>
@@ -90,8 +90,9 @@
 
     </div>
 </div>
-@if (Request.IsAuthenticated)
+@if (Session["Account"] != null)
 {
+    SanPham s = (SanPham)Session["SanPham"];
     <div class="row p-4 ">
         @{ Html.RenderAction("Index", "Comment"); }
     </div> }

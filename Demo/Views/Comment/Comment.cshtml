@@ -9,43 +9,53 @@
         </div>
     </div>
     <div class="comment-list">
-        @foreach (var comment in Model)
+        @using (Html.BeginForm("CreateComment", "Comment", FormMethod.Post, new { @class = "" }))
         {
-            <div class="comment">
-                <div class="wrapper">
-                    <img src="@comment.NguoiDung.anh" alt="comment" width="24" height="24" style="margin-top: 4px">
-                    <div class="w-100">
-                        <div class="comment-body">
-                            <div class="username">@comment.NguoiDung.tenND</div>
-                            <div class="content">@comment.content</div>
+            @Html.AntiForgeryToken()
+            foreach (var comment in Model)
+            {
+                <div class="comment">
+                    <div class="wrapper">
+                        <img src="@comment.NguoiDung.anh" alt="comment" width="24" height="24" style="margin-top: 4px">
+                        <div class="w-100">
+                            <div class="comment-body">
+                                <div class="username">@comment.NguoiDung.tenND</div>
+                                <div class="content">@comment.content</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-style">Trả lời</button>
                         </div>
-                        <button data-comment-id="@comment.maCMT" class="reply btn">
-                            <i class="fas fa-reply"></i>
-                            Trả lời
-                        </button>
                     </div>
                 </div>
-            </div>
-            <div class="wrapper-sub-comment">
-                <div class="sub-comment-list" data-comment-id="@comment.maCMT">
-                    @foreach (var subComment in comment.SubCMTs.ToList())
-                    {
-                        <div class="sub-comment" data-comment-id="@comment.maCMT">
-                            <img src="@subComment.NguoiDung.anh" alt="sub-comment" width="24" height="24" style="margin-top: 4px">
-                            <div class="sub-comment-body">
-                                <div class="username">@subComment.NguoiDung.tenND</div>
-                                <div class="content">@subComment.content</div>
+            }
+        }
+
+        @using (Html.BeginForm("CreateSubComment", "Comment", FormMethod.Post, new { @class = "" }))
+        {
+
+            foreach (var comment in Model)
+            {
+                <div class="wrapper-sub-comment">
+                    <div class="sub-comment-list" data-comment-id="@comment.maCMT">
+                        @foreach (var subComment in comment.SubCMTs.ToList())
+                        {
+                            <div class="sub-comment" data-comment-id="@comment.maCMT">
+                                <img src="@subComment.NguoiDung.anh" alt="sub-comment" width="24" height="24" style="margin-top: 4px">
+                                <div class="sub-comment-body">
+                                    <div class="username">@subComment.NguoiDung.tenND</div>
+                                    <div class="content">@subComment.content</div>
+                                </div>
                             </div>
-                        </div>
-                    }
+                        }
+                    </div>
+                    <div class="sub-comment-form hide" data-comment-id="@comment.maCMT">
+                        <textarea class="content-sub-comment" name="subComent" rows="1" placeholder="Bình luận..." data-comment-id="@comment.maCMT"></textarea>
+                        <button type="submit" class="btn btn-primary btn-style">Trả lời</button>
+                    </div>
                 </div>
-                <div class="sub-comment-form hide" data-comment-id="@comment.maCMT">
-                    <textarea class="content-sub-comment" name="subComent" rows="1" placeholder="Bình luận..." data-comment-id="@comment.maCMT"></textarea>
-                    <button id="add-sub-comment" data-comment-id="@comment.maCMT" class="btn btn-primary">Gửi</button>
-                </div>
-            </div>
+            }
         }
     </div>
 </div>
+
 
 

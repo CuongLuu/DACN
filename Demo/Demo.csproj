@@ -2848,6 +2848,7 @@
     <Content Include="Content\assets\img\work\work-8.jpg" />
     <Content Include="Content\assets\img\work\work-9.jpg" />
     <Content Include="Content\assets\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\assets\js\comment.js" />
     <Content Include="Content\assets\js\google-maps.js" />
     <Content Include="Content\assets\js\jquery-3.5.1.min.js" />
     <Content Include="Content\assets\js\minibar-virtual.js" />

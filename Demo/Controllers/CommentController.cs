@@ -17,21 +17,20 @@ namespace Demo.Controllers
         public ActionResult Index(int Id)
         {
             var commentList = context.CMTs.Where(item => item.maSP == Id).OrderByDescending(x => x.ngaytao).ToList();
-            var userId = User.Identity.GetUserId();
-            var currentUser = context.NguoiDungs.Find(userId);
+            NguoiDung u = (NguoiDung)Session["Account"];
+            var currentUser = context.NguoiDungs.Find(u.maND);
             ViewBag.currentUser = currentUser;
             ViewBag.postId = Id;
-            return PartialView("_CommentPartial", commentList);
+            return PartialView("Comment", commentList);
         }
         [HttpPost]
-        public JsonResult CreateComment(int masp, string content)
+        public JsonResult CreateComment(int postId, string content)
         {
-            string userId = User.Identity.GetUserId();
-            int id = int.Parse(userId);
+            NguoiDung u = (NguoiDung)Session["Account"];
             CMT newComment = new CMT
             {
-                maSP = masp,
-                maND = id,
+                maSP = postId,
+                maND = u.maND,
                 content = content,
                 ngaytao = DateTime.Now,
                 ngaysua = DateTime.Now,
@@ -39,26 +38,25 @@ namespace Demo.Controllers
             context.CMTs.Add(newComment);
             context.SaveChanges();
 
-            var user = context.NguoiDungs.Find(userId);
+            var user = context.NguoiDungs.Find(u.maND);
             newComment.NguoiDung = user;
             return Json(new { message = "Success", data = newComment }, JsonRequestBehavior.AllowGet);
         }
         [HttpPost]
         public JsonResult CreateSubComment(int commentId, string content)
         {
-            string userId = User.Identity.GetUserId();
-            int id = int.Parse(userId);
+            NguoiDung u = (NguoiDung)Session["Account"];
             SubCMT newSubComment = new SubCMT
             {
                 maCMT = commentId,
-                maND = id,
+                maND = u.maND,
                 content = content,
                 ngaytao = DateTime.Now,
                 ngaysua = DateTime.Now,
             };
             context.SubCMTs.Add(newSubComment);
             context.SaveChanges();
-            var user = context.NguoiDungs.Find(userId);
+            var user = context.NguoiDungs.Find(u.maND);
             newSubComment.NguoiDung = user;
             return Json(new { message = "Success", data = newSubComment }, JsonRequestBehavior.AllowGet);
         }
