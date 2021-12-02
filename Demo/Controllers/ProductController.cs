@@ -214,7 +214,7 @@ namespace Demo.Controllers
                 {
                     Admin e = (Admin)Session["AccountAdmin"];
 
-
+                    n.maCH = e.idAdmin;
                     n.idAdmin = e.idAdmin;
                 }
                 //get photo

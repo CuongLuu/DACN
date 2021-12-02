@@ -65,7 +65,7 @@ namespace Demo.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "maCH,tenCH,diachi,sdt,email,idAdmin,idLike,soluongSP")] Cuahang cuahang)
+        public ActionResult Create([Bind(Include = "maCH,tenCH,diachi,sdt,email,idAdmin")] Cuahang cuahang)
         {
             if (ModelState.IsValid)
             {
@@ -99,7 +99,7 @@ namespace Demo.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "maCH,tenCH,diachi,sdt,email,idAdmin,idLike,soluongSP")] Cuahang cuahang)
+        public ActionResult Edit([Bind(Include = "maCH,tenCH,diachi,sdt,email,idAdmin")] Cuahang cuahang)
         {
             if (ModelState.IsValid)
             {

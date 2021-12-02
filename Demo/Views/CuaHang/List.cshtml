@@ -24,10 +24,7 @@
         <div class="col">
             <div class="card">
                 <!-- Card header -->
-                <div class="card-header border-0">
-
-                    <a href="/CuaHang/Create" class="btn btn-round btn-primary"><i class="fas fa-plus-circle"></i></a>
-                </div>
+                
                 <!-- Light table -->
                 <div class="table-responsive">
                     <table class="table align-items-center table-flush">
@@ -38,50 +35,56 @@
                                 <th scope="col" class="sort" data-sort="budget">Địa chỉ </th>
                                 <th scope="col" class="sort" data-sort="budget">Email </th>
                                 <th scope="col" class="sort" data-sort="budget">SĐT </th>
+                                <th scope="col" class="sort" data-sort="budget">Tên chủ cửa hàng </th>
                                 <th scope="col"></th>
                             </tr>
                         </thead>
                         <tbody class="list">
                             @foreach (var i in Model)
                             {
-                <tr>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.maCH</span>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.tenCH</span>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.diachi</span>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.email</span>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="media-body">
-                            <span class="name mb-0 text-sm">@i.sdt</span>
-                        </div>
-                    </td>
+                            <tr>
+                                <td>
+                                    <div class="media-body">
+                                        <span class="name mb-0 text-sm">@i.maCH</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="media-body">
+                                        <span class="name mb-0 text-sm">@i.tenCH</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="media-body">
+                                        <span class="name mb-0 text-sm">@i.diachi</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="media-body">
+                                        <span class="name mb-0 text-sm">@i.email</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="media-body">
+                                        <span class="name mb-0 text-sm">@i.sdt</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="media-body">
+                                        <span class="name mb-0 text-sm">@i.Admin.ten</span>
+                                    </div>
+                                </td>
 
-                    <td>
-                        @*status*@
+                                <td>
+                                    @*status*@
 
-                    </td>
-                    <td class="text-right">
-                        <a href="@Url.Action("Details","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-eye"></i></a>
-                        <a href="@Url.Action("Edit","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
-                        <a href="@Url.Action("Delete","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-minus-circle"></i></a>
+                                </td>
+                                <td class="text-right">
+                                    <a href="@Url.Action("Details","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-eye"></i></a>
+                                    <a href="@Url.Action("Edit","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-edit"></i></a>
+                                    <a href="@Url.Action("Delete","CuaHang",new { id= @i.maCH })" class="btn btn-sm btn-neutral"><i class="fas fa-minus-circle"></i></a>
 
-                    </td>
-                </tr>
+                                </td>
+                            </tr>
 }
                         </tbody>
                     </table>

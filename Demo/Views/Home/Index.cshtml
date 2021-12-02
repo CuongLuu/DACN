@@ -296,7 +296,7 @@
                     <div id="phuclong" class="container tab-pane active">
                         <div class="row">
                             <div class="col-lg-7 col-md-12">
-                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 1).Take(5))
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 5 && n.status==1).OrderByDescending(n => n.maSP).Take(5))
                                 {
                                     <div class="menu-item">
                                         <div class="menu-img">
@@ -315,7 +315,7 @@
                     <div id="highland" class="container tab-pane fade">
                         <div class="row">
                             <div class="col-lg-7 col-md-12">
-                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 2).Take(5))
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 6 && n.status == 1).OrderByDescending(n => n.maSP).Take(5))
                                 {
                                     <div class="menu-item">
                                         <div class="menu-img">
@@ -334,7 +334,7 @@
                     <div id="koithe" class="container tab-pane fade">
                         <div class="row">
                             <div class="col-lg-7 col-md-12">
-                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 12).Take(5))
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 7 && n.status == 1).OrderByDescending(n => n.maSP).Take(5))
                                 {
                                     <div class="menu-item">
                                         <div class="menu-img">
@@ -353,7 +353,7 @@
                     <div id="thealley" class="container tab-pane fade">
                         <div class="row">
                             <div class="col-lg-7 col-md-12">
-                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 13).Take(5))
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 8 && n.status == 1).OrderByDescending(n => n.maSP).Take(5))
                                 {
                                     <div class="menu-item">
                                         <div class="menu-img">

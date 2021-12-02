@@ -125,7 +125,7 @@ namespace Demo.Controllers
         }
         public ActionResult HomeOfAuthor(int? page)
         {
-            var listNews = context.SanPhams.OrderByDescending(p => p.ngaytao).ToList();
+            var listNews = context.SanPhams.ToList();
             foreach (var l in listNews)
             {
                 var cat = context.LoaiSPs.Where(p => p.maLoaiSP == l.maLoaiSP).SingleOrDefault();
