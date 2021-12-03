@@ -123,23 +123,14 @@ namespace Demo.Controllers
             }
             return View(list);
         }
-        public ActionResult HomeOfAuthor(int? page)
+        public ActionResult HomeOfAuthor(int id,int? page)
         {
-            var listNews = context.SanPhams.ToList();
-            foreach (var l in listNews)
-            {
-                var cat = context.LoaiSPs.Where(p => p.maLoaiSP == l.maLoaiSP).SingleOrDefault();
-                var aut = context.Cuahangs.Where(p => p.maCH == l.maCH).SingleOrDefault();
-                l.categoryname = cat.tenLoaiSP;
-                l.authorphoto = aut.sdt;
-                l.authorname = aut.tenCH;
-            }
+            var listProductCH = context.SanPhams.Where(n => n.idAdmin == id).ToList();
             if (page == null)
                 page = 1;
-            int pageSize = 15;
+            int pageSize = 9;
             int pageNum = (page ?? 1);
-            listNews = listNews.OrderByDescending(n => n.maSP).ToList();
-            return View(listNews.ToPagedList(pageNum, pageSize));
+            return View(listProductCH.ToPagedList(pageNum, pageSize));
         }
 
         [HttpGet]
