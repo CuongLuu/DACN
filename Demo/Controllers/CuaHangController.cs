@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Migrations;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -164,7 +166,8 @@ namespace Demo.Controllers
                     s.tenCH = f["name"].ToString();
                     s.sdt = f["phone"].ToString();
                     s.diachi = f["address"].ToString();
-                s.idAdmin = u.idAdmin;
+                    s.anh = "defaultAvatar.png";
+                    s.idAdmin = u.idAdmin;
                     db.Cuahangs.Add(s);
                     db.SaveChanges();
                     Session["CuaHang"] = s;
@@ -177,6 +180,41 @@ namespace Demo.Controllers
                     return View("");
                 }
 
+        }
+        [HttpGet]
+        public ActionResult Editcuahang(int id)
+        {
+
+            Cuahang shop = db.Cuahangs.SingleOrDefault(p => p.maCH == id);
+            if (shop == null)
+            {
+                return HttpNotFound();
+            }
+            return View(shop);
+        }
+        [HttpPost, ActionName("Editcuahang")]
+        public ActionResult Editcuahang(Cuahang shop)
+        {
+
+            Cuahang dbUpdate = db.Cuahangs.FirstOrDefault(p => p.maCH == shop.maCH);
+            if (dbUpdate != null)
+            {
+                
+                // get photo
+                if (shop.ImageUpload != null)
+                {
+                    string filename = Path.GetFileNameWithoutExtension(shop.ImageUpload.FileName);
+                    string extension = Path.GetExtension(shop.ImageUpload.FileName);
+                    filename = filename + extension;
+                    shop.anh = filename;
+                    string path = Path.Combine(Server.MapPath("~/Image/ImageUpload/"), filename);
+                    shop.ImageUpload.SaveAs(path);
+                }
+                db.Cuahangs.AddOrUpdate(shop);
+                db.SaveChanges();
+            }
+            ModelState.Clear();
+            return RedirectToAction("ProfileShop", "Home", new { id = shop.maCH });
         }
     }
 }

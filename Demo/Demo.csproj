@@ -198,7 +198,6 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CartController.cs" />
-    <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\CuaHangController.cs" />
     <Compile Include="Controllers\DonHangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -213,7 +212,6 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Cart.cs" />
-    <Compile Include="Models\CMT.cs" />
     <Compile Include="Models\Context\HomeModel.cs" />
     <Compile Include="Models\CTHD.cs" />
     <Compile Include="Models\Cuahang.cs" />
@@ -228,7 +226,6 @@
     <Compile Include="Models\SanPham.cs" />
     <Compile Include="Models\Silde.cs" />
     <Compile Include="Models\Size.cs" />
-    <Compile Include="Models\SubCMT.cs" />
     <Compile Include="Models\Topping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -3059,7 +3056,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
+    <Content Include="Image\ImageUpload\anhcuahanghighland.jpg" />
+    <Content Include="Image\ImageUpload\anhcuahangkoithe.jpg" />
+    <Content Include="Image\ImageUpload\anhcuahangthealley.jpg" />
+    <Content Include="Image\ImageUpload\Cuahangphuclong.jpg" />
     <Content Include="Image\ImageUpload\defaultAvatar.png" />
+    <Content Include="Image\video.webm" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\assets\fonts\maicons.eot" />
@@ -3863,6 +3865,7 @@
     <Content Include="Views\CuaHang\RegisterShop.cshtml" />
     <Content Include="Views\Home\ProfileShop.cshtml" />
     <Content Include="Views\Home\Index2.cshtml" />
+    <Content Include="Views\CuaHang\Editcuahang.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -13,7 +13,6 @@ namespace Demo.Models
         }
 
         public virtual DbSet<Admin> Admins { get; set; }
-        public virtual DbSet<CMT> CMTs { get; set; }
         public virtual DbSet<CTHD> CTHDs { get; set; }
         public virtual DbSet<Cuahang> Cuahangs { get; set; }
         public virtual DbSet<Donhang> Donhangs { get; set; }
@@ -24,7 +23,6 @@ namespace Demo.Models
         public virtual DbSet<SanPham> SanPhams { get; set; }
         public virtual DbSet<Silde> Sildes { get; set; }
         public virtual DbSet<Size> Sizes { get; set; }
-        public virtual DbSet<SubCMT> SubCMTs { get; set; }
         public virtual DbSet<Topping> Toppings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -68,6 +66,10 @@ namespace Demo.Models
                 .IsUnicode(false);
 
             modelBuilder.Entity<Cuahang>()
+                .Property(e => e.anh)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Cuahang>()
                 .HasMany(e => e.SanPhams)
                 .WithRequired(e => e.Cuahang)
                 .WillCascadeOnDelete(false);
@@ -89,11 +91,6 @@ namespace Demo.Models
                 .IsUnicode(false);
 
             modelBuilder.Entity<NguoiDung>()
-                .HasMany(e => e.CMTs)
-                .WithRequired(e => e.NguoiDung)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<NguoiDung>()
                 .HasMany(e => e.CTHDs)
                 .WithRequired(e => e.NguoiDung)
                 .WillCascadeOnDelete(false);
@@ -106,11 +103,6 @@ namespace Demo.Models
             modelBuilder.Entity<SanPham>()
                 .Property(e => e.hinhanh)
                 .IsUnicode(false);
-
-            modelBuilder.Entity<SanPham>()
-                .HasMany(e => e.CMTs)
-                .WithRequired(e => e.SanPham)
-                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Silde>()
                 .Property(e => e.hinhanh)

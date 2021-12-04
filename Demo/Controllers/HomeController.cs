@@ -78,31 +78,7 @@ namespace Demo.Controllers
             ModelState.Clear();
             return RedirectToAction("ProfileUser", "Home", new { id = user.maND });
         }
-        /* [HttpPost, ActionName("EditProfileUser")]
-         public ActionResult EditProfileUser(NguoiDung user, HttpPostedFileBase uploadhinh)
-         {
-             NguoiDung dbUpdate = context.NguoiDungs.FirstOrDefault(p => p.maND == user.maND);
-             if (dbUpdate != null)
-             {
-                 //get date modified
-                 user.ngaysua = DateTime.Now;
-                 // get photo
-                 if (uploadhinh != null && uploadhinh.ContentLength > 0)
-                 {
-                     int id = user.maND;
-                     string filename = "";
-                     int index = uploadhinh.FileName.IndexOf('.');
-                     filename = "user" + id.ToString() + "." + uploadhinh.FileName.Substring(index + 1);
-                     string path = Path.Combine(Server.MapPath("~/Image/ImageUpload"), filename);
-                     uploadhinh.SaveAs(path);
-                     dbUpdate.anh = filename;
-                 }
-                 context.NguoiDungs.AddOrUpdate(user);
-                 context.SaveChanges();
-             }
-             return RedirectToAction("Index", "Home");
-         }
- */
+        
         public ActionResult ProfileAdmin()
         {
             ViewBag.Message = "Your contact page.";

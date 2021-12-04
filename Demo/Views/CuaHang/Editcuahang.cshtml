@@ -1,0 +1,80 @@
+﻿@model Demo.Models.Cuahang
+
+@{
+    ViewBag.Title = "Editcuahang";
+    Layout = "~/Views/Shared/_LayoutShopmanager.cshtml";
+}
+
+<div class="container-fluid mt--6">
+    <div class="row">
+
+        @using (Html.BeginForm("Editcuahang", "CuaHang", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Cua Hang</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.maCH)
+            <div class="form-group">
+                @Html.LabelFor(model => model.tenCH, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.tenCH, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.tenCH, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.sdt, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.sdt, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.sdt, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.diachi, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.diachi, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.diachi, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">                
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.idAdmin, new { htmlAttributes = new { @class = "form-control", @type = "hidden" } })
+                    @Html.ValidationMessageFor(model => model.idAdmin, "", new { @class = "text-danger", @type = "hidden" })
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <label class="form-control-label" for="input-email">Ảnh đại diện</label>
+                    <br />
+                    <img src="~/Image/ImageUpload/@Model.anh" style="height:200px;width:200px;margin:10px" id="previewImage" />
+                    @Html.TextBox("ImageUpload", "Chọn ảnh", new { type = "file", accept = ".jpg,.png,.jpeg,.gif", @class = "form-control", @onchange = "ShowImagePreview(this,document.getElementById('previewImage'))" })
+                    <br />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "ManagerShop")
+        </div>
+    </div>
+</div>

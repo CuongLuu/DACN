@@ -5,22 +5,20 @@ namespace Demo.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
-    using System.Web;
 
     [Table("SanPham")]
     public partial class SanPham
     {
-        internal string categoryname;
-        internal string authorphoto;
-        internal string authorname;
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public SanPham()
         {
-            CMTs = new HashSet<CMT>();
             CTHDs = new HashSet<CTHD>();
-           
         }
+        internal string categoryname;
+        internal string authorphoto;
+        internal string authorname;
+        [NotMapped]
+        public System.Web.HttpPostedFileBase ImageUpload { get; set; }
 
         [Key]
         public int maSP { get; set; }
@@ -38,8 +36,6 @@ namespace Demo.Models
         [StringLength(50)]
         public string tenSP { get; set; }
 
-        public double? gia { get; set; }
-
         [StringLength(255)]
         public string mota { get; set; }
 
@@ -52,25 +48,19 @@ namespace Demo.Models
 
         public DateTime? ngaycapnhat { get; set; }
 
-        public virtual Admin Admin { get; set; }
+        public double? gia { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CMT> CMTs { get; set; }
+        public virtual Admin Admin { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CTHD> CTHDs { get; set; }
 
         public virtual Cuahang Cuahang { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        
-
         public virtual LoaiSP LoaiSP { get; set; }
 
         public virtual Size Size { get; set; }
 
         public virtual Topping Topping { get; set; }
-        [NotMapped]
-        public System.Web.HttpPostedFileBase ImageUpload { get; set; }
     }
 }
