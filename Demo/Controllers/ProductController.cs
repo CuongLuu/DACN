@@ -231,7 +231,7 @@ namespace Demo.Controllers
                     }
                     context.SanPhams.Add(n);
                     context.SaveChanges();
-                    return RedirectToAction("HomeOfAuthor", "Home");
+                    return RedirectToAction( "HomeOfAuthor", "Home", new { id = n.idAdmin });
                 }
 
                 ViewBag.idAdmin = new SelectList(context.Admins, "idAdmin", "ten", sanPham.idAdmin);
@@ -243,7 +243,7 @@ namespace Demo.Controllers
             }
             catch
             {
-                return RedirectToAction("HomeOfAuthor", "Home");
+                return RedirectToAction( "HomeOfAuthor", "Home", new { id = n.idAdmin });
             }
 
         }

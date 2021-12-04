@@ -35,6 +35,7 @@ namespace Demo.Models
 
         public int idAdmin { get; set; }
 
+        public string anh { get; set; }
         public virtual Admin Admin { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

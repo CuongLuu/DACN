@@ -3862,6 +3862,7 @@
     <Content Include="Views\Shop\tenShop.cshtml" />
     <Content Include="Views\CuaHang\RegisterShop.cshtml" />
     <Content Include="Views\Home\ProfileShop.cshtml" />
+    <Content Include="Views\Home\Index2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

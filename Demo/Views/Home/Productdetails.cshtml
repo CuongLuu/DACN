@@ -36,7 +36,7 @@
         <!-- card right -->
         <div class="product-content">
             <h2 class="product-titlee">@Model.tenSP</h2>
-            <a href="#" class="product-link">Shop: <span>@Model.Cuahang.tenCH</span></a>
+            <a href="/Shop/shop/@Model.maCH" class="product-link">Shop: <span>@Model.Cuahang.tenCH</span></a>
             <div class="product-rating">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -74,7 +74,7 @@
                             </select>
                         }
                     </li>
-                    <li>Số lượng: <input style="width:50px" type="number" min="0" value="1"></li>
+                   
                 </ul>
             </div>
 
@@ -84,22 +84,11 @@
                 <a href="/cart/AddtoCart/@Model.maSP" class="btn">
                     Thêm vào giỏ hàng <i class="fas fa-shopping-cart"></i>
                 </a>
-                <button type="button" class="btn">Mua ngay</button>
+                
             </div>
         </div>
 
     </div>
 </div>
-@if (Session["Account"] != null)
-{
-    SanPham s = (SanPham)Session["SanPham"];
-    <div class="row p-4 ">
-        @{ Html.RenderAction("Index", "Comment"); }
-    </div> }
-else
-{
-    <div class="row p-4 ">
-        <p>Hãy <a href="/account/login">đăng nhập</a> để bình luận :D</p>
-    </div>
-}
+
 

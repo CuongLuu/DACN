@@ -27,7 +27,12 @@ namespace Demo.Controllers
             obj.ListSlide = context.Sildes.ToList();
             return View(obj);
         }
-
+        public ActionResult Index2()
+        {
+            var listProduct = context.Cuahangs.ToList();
+           
+            return PartialView(listProduct);
+        }
         public ActionResult Profile()
         {
             return View();
@@ -130,6 +135,7 @@ namespace Demo.Controllers
                 page = 1;
             int pageSize = 9;
             int pageNum = (page ?? 1);
+            listProductCH = listProductCH.OrderByDescending(n => n.maSP).ToList();
             return View(listProductCH.ToPagedList(pageNum, pageSize));
         }
 

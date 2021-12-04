@@ -1,5 +1,6 @@
 ﻿@model Demo.Models.Context.HomeModel
 
+
 @{ ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layoutchinh.cshtml"; }
 <!-- Carousel Start -->
@@ -296,7 +297,7 @@
                     <div id="phuclong" class="container tab-pane active">
                         <div class="row">
                             <div class="col-lg-7 col-md-12">
-                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 5 && n.status==1).OrderByDescending(n => n.maSP).Take(5))
+                                @foreach (var item in Model.ListSP.Where(n => n.maCH == 5 && n.status == 1).OrderByDescending(n => n.maSP).Take(5))
                                 {
                                     <div class="menu-item">
                                         <div class="menu-img">
@@ -381,78 +382,87 @@
                 <p>Các cửa hàng</p>
                 <h2>Danh Sách Các Của Hàng</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div style="height:250px;width:250px;" class="team-img">
-                            <img src="~/Content/Template/img/Cuahangphuclong.jpg" alt="Image">
-                            <div class="team-social">
-                                <a href="https://www.instagram.com/phuclongcoffeeandtea/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.facebook.com/phuclongcoffeeandtea/"><i class="fab fa-facebook-f"></i></a>
+           @Html.Action("Index2","Home")
+                </div>
+            </div>
+    @*<div class="team">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Các cửa hàng</p>
+                    <h2>Danh Sách Các Của Hàng</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div style="height:250px;width:250px;" class="team-img">
+                                <img src="~/Content/Template/img/Cuahangphuclong.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href="https://www.instagram.com/phuclongcoffeeandtea/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/phuclongcoffeeandtea/"><i class="fab fa-facebook-f"></i></a>
 
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-text">
-                            <h2>Cửa Hàng Phúc Long</h2>
-                            <p>Quận 1</p>
+                            <div class="team-text">
+                                <h2>Cửa Hàng Phúc Long</h2>
+                                <p>Quận 1</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div style="height:250px;width:250px;" class="team-img">
-                            <img src="~/Content/Template/img/anhcuahanghighland.jpg" alt="Image">
-                            <div class="team-social">
-                                <a href="https://www.instagram.com/highlandscoffeevietnam/?hl=vi"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.facebook.com/highlandscoffeevietnam/"><i class="fab fa-facebook-f"></i></a>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div style="height:250px;width:250px;" class="team-img">
+                                <img src="~/Content/Template/img/anhcuahanghighland.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href="https://www.instagram.com/highlandscoffeevietnam/?hl=vi"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/highlandscoffeevietnam/"><i class="fab fa-facebook-f"></i></a>
 
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-text">
-                            <h2>Cửa Hàng HighLands</h2>
-                            <p>Quận 1</p>
+                            <div class="team-text">
+                                <h2>Cửa Hàng HighLands</h2>
+                                <p>Quận 1</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div style="height:250px;width:250px;" class="team-img">
-                            <img src="~/Content/Template/img/anhcuahangkoithe.jpg" alt="Image">
-                            <div class="team-social">
-                                <a href="https://www.instagram.com/koithevietnam/?hl=vi"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.facebook.com/KOITheVietnam/"><i class="fab fa-facebook-f"></i></a>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div style="height:250px;width:250px;" class="team-img">
+                                <img src="~/Content/Template/img/anhcuahangkoithe.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href="https://www.instagram.com/koithevietnam/?hl=vi"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/KOITheVietnam/"><i class="fab fa-facebook-f"></i></a>
 
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-text">
-                            <h2>Cửa Hàng KoiThe</h2>
-                            <p>Quận 1</p>
+                            <div class="team-text">
+                                <h2>Cửa Hàng KoiThe</h2>
+                                <p>Quận 1</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div style="height:250px;width:250px;" class="team-img">
-                            <img src="~/Content/Template/img/anhcuahangthealley.jpg" alt="Image">
-                            <div class="team-social">
-                                <a href="https://www.instagram.com/thealley.vietnam/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.facebook.com/thealleyvietnam"><i class="fab fa-facebook-f"></i></a>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div style="height:250px;width:250px;" class="team-img">
+                                <img src="~/Content/Template/img/anhcuahangthealley.jpg" alt="Image">
+                                <div class="team-social">
+                                    <a href="https://www.instagram.com/thealley.vietnam/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/thealleyvietnam"><i class="fab fa-facebook-f"></i></a>
 
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-text">
-                            <h2>Cửa Hàng The Alley</h2>
-                            <p>Quận 1</p>
+                            <div class="team-text">
+                                <h2>Cửa Hàng The Alley</h2>
+                                <p>Quận 1</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>*@
     <!-- Team End -->
     <!-- Testimonial Start -->
     <div class="testimonial">
